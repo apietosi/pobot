@@ -1,0 +1,305 @@
+{
+	"platform":{
+		"activ":{"stock":{"#AA":{"id":"#AA","title":"Alcoa Inc"},"#AAPL":{"id":"#AAPL","title":"Apple"},"#AAPL_otc":{"id":"#AAPL_otc","title":"Apple OTC"},"#AA_otc":{"id":"#AA_otc","title":"Alcoa Inc OTC"},"#AXP":{"id":"#AXP","title":"American Express"},"#AXP_otc":{"id":"#AXP_otc","title":"American Express OTC"},"#BA":{"id":"#BA","title":"Boeing Company"},"#BAC_otc":{"id":"#BAC_otc","title":"Bank of America OTC"},"#BA_otc":{"id":"#BA_otc","title":"Boeing Company OTC"},"#CAT":{"id":"#CAT","title":"Caterpillar Inc"},"#CAT_otc":{"id":"#CAT_otc","title":"Caterpillar Inc OTC"},"#CHMF_otc":{"id":"#CHMF_otc","title":"Severstal OTC"},"#DIS":{"id":"#DIS","title":"Walt Disney"},"#DIS_otc":{"id":"#DIS_otc","title":"Walt Disney OTC"},"#FB":{"id":"#FB","title":"FACEBOOK INC"},"#FB_otc":{"id":"#FB_otc","title":"FACEBOOK INC OTC"},"#GAZP_otc":{"id":"#GAZP_otc","title":"Gazprom OTC"},"#GMKN_otc":{"id":"#GMKN_otc","title":"Nornickel OTC"},"#GOOG":{"id":"#GOOG","title":"Google"},"#GOOG_otc":{"id":"#GOOG_otc","title":"Google OTC"},"#HD":{"id":"#HD","title":"Home Depot Inc"},"#HD_otc":{"id":"#HD_otc","title":"Home Depot Inc OTC"},"#HPQ_otc":{"id":"#HPQ_otc","title":"HP Inc OTC"},"#IBM":{"id":"#IBM","title":"IBM"},"#IBM_otc":{"id":"#IBM_otc","title":"IBM OTC"},"#INTC":{"id":"#INTC","title":"Intel"},"#INTC_otc":{"id":"#INTC_otc","title":"Intel OTC"},"#JNJ":{"id":"#JNJ","title":"Johnson & Johnson"},"#JNJ_otc":{"id":"#JNJ_otc","title":"Johnson & Johnson OTC"},"#JPM":{"id":"#JPM","title":"JPMorgan Chase & Co"},"#JPM_otc":{"id":"#JPM_otc","title":"JPMorgan Chase & Co OTC"},"#LKOH_otc":{"id":"#LKOH_otc","title":"Lukoil OTC"},"#MCD":{"id":"#MCD","title":"McDonald's"},"#MCD_otc":{"id":"#MCD_otc","title":"McDonald's OTC"},"#MMM":{"id":"#MMM","title":"3M Company"},"#MMM_otc":{"id":"#MMM_otc","title":"3M Company OTC"},"#MO":{"id":"#MO","title":"Altria Group Inc"},"#MO_otc":{"id":"#MO_otc","title":"Altria Group Inc OTC"},"#MSFT":{"id":"#MSFT","title":"Microsoft"},"#MSFT_otc":{"id":"#MSFT_otc","title":"Microsoft OTC"},"#PFE_otc":{"id":"#PFE_otc","title":"Pfizer Inc OTC"},"#SBER_otc":{"id":"#SBER_otc","title":"Sberbank OTC"}},"cryptocurrency":{"AMP_USD":{"id":"AMP_USD","title":"Synereo"},"BTCUSD":{"id":"BTCUSD","title":"Bitcoin"},"EOSUSD":{"id":"EOSUSD","title":"EOS"},"ETC_USD":{"id":"ETC_USD","title":"Ethereum Classic"},"ETHBTC":{"id":"ETHBTC","title":"ETH/BTC"},"ETHUSD":{"id":"ETHUSD","title":"Ethereum"},"ETPUSD":{"id":"ETPUSD","title":"Metaverse"},"EXP_USD":{"id":"EXP_USD","title":"Expanse"},"GAME_USD":{"id":"GAME_USD","title":"GameCredits"},"GNT_USD":{"id":"GNT_USD","title":"Golem"},"GRC_USD":{"id":"GRC_USD","title":"Gridcoin"},"LSK_USD":{"id":"LSK_USD","title":"Lisk"},"LTCUSD":{"id":"LTCUSD","title":"Litecoin"},"NXT_USD":{"id":"NXT_USD","title":"Nxt"},"STEEM_USD":{"id":"STEEM_USD","title":"Steem"},"STRAT_USD":{"id":"STRAT_USD","title":"Stratis"},"STR_USD":{"id":"STR_USD","title":"Stellar"},"SYS_USD":{"id":"SYS_USD","title":"Syscoin"},"VIA_USD":{"id":"VIA_USD","title":"Viacoin"},"VTC_USD":{"id":"VTC_USD","title":"Vertcoin"},"XEM_USD":{"id":"XEM_USD","title":"NEM"},"XPM_USD":{"id":"XPM_USD","title":"Primecoin"},"XRPUSD":{"id":"XRPUSD","title":"Ripple"},"ZECUSD":{"id":"ZECUSD","title":"Zcash"}},"currency":{"AUDCAD":{"id":"AUDCAD","title":"AUD/CAD"},"AUDCAD_otc":{"id":"AUDCAD_otc","title":"AUD/CAD OTC"},"AUDCHF":{"id":"AUDCHF","title":"AUD/CHF"},"AUDCHF_otc":{"id":"AUDCHF_otc","title":"AUD/CHF OTC"},"AUDJPY":{"id":"AUDJPY","title":"AUD/JPY"},"AUDJPY_otc":{"id":"AUDJPY_otc","title":"AUD/JPY OTC"},"AUDNZD":{"id":"AUDNZD","title":"AUD/NZD"},"AUDUSD":{"id":"AUDUSD","title":"AUD/USD"},"AUDUSD_otc":{"id":"AUDUSD_otc","title":"AUD/USD OTC"},"CADCHF":{"id":"CADCHF","title":"CAD/CHF"},"CADJPY":{"id":"CADJPY","title":"CAD/JPY"},"CADJPY_otc":{"id":"CADJPY_otc","title":"CAD/JPY OTC"},"CHFJPY":{"id":"CHFJPY","title":"CHF/JPY"},"CHFJPY_otc":{"id":"CHFJPY_otc","title":"CHF/JPY OTC"},"EURAUD":{"id":"EURAUD","title":"EUR/AUD"},"EURCAD":{"id":"EURCAD","title":"EUR/CAD"},"EURCHF":{"id":"EURCHF","title":"EUR/CHF"},"EURCHF_otc":{"id":"EURCHF_otc","title":"EUR/CHF OTC"},"EURGBP":{"id":"EURGBP","title":"EUR/GBP"},"EURGBP_otc":{"id":"EURGBP_otc","title":"EUR/GBP OTC"},"EURJPY":{"id":"EURJPY","title":"EUR/JPY"},"EURJPY_otc":{"id":"EURJPY_otc","title":"EUR/JPY OTC"},"EURNZD":{"id":"EURNZD","title":"EUR/NZD"},"EURPLN":{"id":"EURPLN","title":"EUR/PLN"},"EURPLN_otc":{"id":"EURPLN_otc","title":"EUR/PLN OTC"},"EURRUB":{"id":"EURRUB","title":"EUR/RUB"},"EURRUB_otc":{"id":"EURRUB_otc","title":"EUR/RUB OTC"},"EURSGD":{"id":"EURSGD","title":"EUR/SGD"},"EURSGD_otc":{"id":"EURSGD_otc","title":"EUR/SGD OTC"},"EURUSD":{"id":"EURUSD","title":"EUR/USD"},"EURUSD_otc":{"id":"EURUSD_otc","title":"EUR/USD OTC"},"GBPAUD":{"id":"GBPAUD","title":"GBP/AUD"},"GBPAUD_otc":{"id":"GBPAUD_otc","title":"GBP/AUD OTC"},"GBPCAD":{"id":"GBPCAD","title":"GBP/CAD"},"GBPCHF":{"id":"GBPCHF","title":"GBP/CHF"},"GBPJPY":{"id":"GBPJPY","title":"GBP/JPY"},"GBPJPY_otc":{"id":"GBPJPY_otc","title":"GBP/JPY OTC"},"GBPUSD":{"id":"GBPUSD","title":"GBP/USD"},"GBPUSD_otc":{"id":"GBPUSD_otc","title":"GBP/USD OTC"},"NZDJPY":{"id":"NZDJPY","title":"NZD/JPY"},"NZDJPY_otc":{"id":"NZDJPY_otc","title":"NZD/JPY OTC"},"NZDUSD":{"id":"NZDUSD","title":"NZD/USD"},"NZDUSD_otc":{"id":"NZDUSD_otc","title":"NZD/USD OTC"},"USDCAD":{"id":"USDCAD","title":"USD/CAD"},"USDCAD_otc":{"id":"USDCAD_otc","title":"USD/CAD OTC"},"USDCHF":{"id":"USDCHF","title":"USD/CHF"},"USDCHF_otc":{"id":"USDCHF_otc","title":"USD/CHF OTC"},"USDJPY":{"id":"USDJPY","title":"USD/JPY"},"USDJPY_otc":{"id":"USDJPY_otc","title":"USD/JPY OTC"},"USDRUB":{"id":"USDRUB","title":"USD/RUB"},"USDRUB_otc":{"id":"USDRUB_otc","title":"USD/RUB OTC"},"USDTRY_otc":{"id":"USDTRY_otc","title":"USD/TRY OTC"}},"commodity":{"UKBrent":{"id":"UKBrent","title":"UKBrent"},"UKBrent_otc":{"id":"UKBrent_otc","title":"UKBrent OTC"},"USCrude":{"id":"USCrude","title":"USCrude"},"USCrude_otc":{"id":"USCrude_otc","title":"USCrude OTC"},"XAGEUR":{"id":"XAGEUR","title":"XAG/EUR"},"XAGUSD":{"id":"XAGUSD","title":"Silver"},"XAGUSD_otc":{"id":"XAGUSD_otc","title":"Silver OTC"},"XAUEUR":{"id":"XAUEUR","title":"XAU/EUR"},"XAUUSD":{"id":"XAUUSD","title":"Gold"},"XAUUSD_otc":{"id":"XAUUSD_otc","title":"Gold OTC"}}},
+		"asset_status":{
+			"available":{},
+			"available_expiration":{},
+			"yield":{}
+		},
+		"current_sid":null,
+		"current_url":null
+	},
+	"plagin":{
+		"menu":{
+			"selected":"trade",
+			"data":[
+				{
+					"id":"trade",
+					"title":{"ru":"Торговля","en":"Trade"},
+					"selected":true,
+					"submenu":[
+						{
+							"id":"ready_strategies",
+							"title":{"ru":"Базовые стратегии","en":"Base strategies"},
+							"selected":true
+						},
+						{
+							"id":"my_strategies",
+							"title":{"ru":"Мои стратегии","en":"My strategies"},
+							"selected":false
+						}
+					]
+				},
+				{
+					"id":"history",
+					"title":{"ru":"История","en":"History"},
+					"selected":false,
+					"submenu":[
+						{
+							"id":"deal",
+							"title":{"ru":"Сделки","en":"Deal"},
+							"selected":true,
+							"otherdata":{"selectpage":1}
+						},
+						{
+							"id":"series_martin",
+							"title":{"ru":"Серии мартин.","en":"A series of martin."},
+							"selected":false
+						}
+					]
+				},
+				{
+					"id":"market",
+					"title":{"ru":"Маркет","en":"Market"},
+					"selected":false,
+					"submenu":[
+						{
+							"id":"showcase",
+							"title":{"ru":"Витрина","en":"Showcase"},
+							"selected":true,
+							"html_content":{
+								"ru":"<div class=\"marcet-content\">Для Вас нет платных продуктов.</div>",
+								"en":" "}
+						},
+						{
+							"id":"my_purchase",
+							"title":{"ru":"Мои покупки","en":"My purchase"},
+							"selected":false,
+							"html_content":{
+								"ru":"<div class=\"marcet-content\">У Вас нет покупок.</div>",
+								"en":" "}
+						}
+					]
+				},
+				{
+					"id":"training",
+					"title":{"ru":"Инфо","en":"Information"},
+					"selected":false,
+					"submenu":[
+						{
+							"id":"general_provision",
+							"title":{"ru":"Общие положения","en":"General provision"},
+							"selected":true,
+							"html_content":{
+								"ru":"<div class=\"training-content\"> <div class=\"title\"></div> <div class=\"content\"> PocketOptionRobot это расширение для браузера. Основной функцией данного расширения является помощь пользователю при торговли бинарными опционами на платформе pocketoption. В набор функций данного расширения входит: <ul> <li class=\"galca\">Подача торговых сигналов согласно выбранной стратегии.</li> <li class=\"galca\">Автоматическое открытие сделок согласно выбранной стратегии.</li><li class=\"galca\">Возможность создавать стратегии по индивидуальным настройкам и индикаторам.</li> </ul> В блоке «МОИ СТРАТЕГИИ» Вы можете сделать желаемый набор индикаторов по Вашей стратегии, задать параметры индикаторов и запустить робота по Вашим настройкам! Таким образом, робот может торговать абсолютно по любой Вашей стратегии. </div> <div class=\"ps\"> <b>ВАЖНО!</b> Бесплатное использование PocketOption Robot доступно для трейдеров, зарегистрировавших аккаунт по <a class=\"open_reg\">ссылке</a> нашего проекта. Чтобы робот торговал на Вашем реальном/демо счете, необходимо перед запуском робота авторизоваться на платформе под аккаунтом, зарегистрированном по вышеуказанной ссылке!<br>Очень важно понимать, что торговля на финансовых рынках сопряжена с риском. PocketOptionRobot не может гарантировать Вам прибыльную торговлю. PocketOptionRobot это инструмент благодаря которому Вы можете вести автоматическую торговлю в строгом соответствии с введенными Вами настройками. Использование PocketOptionRobot может привести к частичной или полной потере средств на вашем торговом счете. За убытки понесенные в связи с использованием данного торгового помощника разработчик ответственности не несет. Все действия пользователь делает на свой страх и риск. </div> <div>",
+								"en":" "}
+						},
+						{
+							"id":"robot_interface",
+							"title":{"ru":"Интерфейс робота","en":"Robot interface"},
+							"selected":false,
+							"html_content":{
+								"ru":"<div class=\"training-content\"> <div class=\"title\"></div> <div class=\"content\"> Робот имеет очень удобный торговый интерфейс. Слева по вертикали расположены разделы ТОРГОВЛЯ, ИСТОРИЯ, ИНФО, ПОМОЩЬ. Раздел «ТОРГОВЛЯ» состоит из 2-х основных блоков: <ul> <li class=\"galca\">БАЗОВЫЕ СТРАТЕГИИ – набор готовых стратегий как для новичка, так и для опытного трейдера. Базовые стратегии строятся на основе популярных торговых индикаторов. Обратите внимание, что параметры индикаторов стандартные и не доступны для изменения в данном блоке!</li> <li class=\"galca\">МОИ СТРАТЕГИИ – предназначен для создания собственных торговых стратегий. При построении своей стратегии Вы можете выбрать любые индикаторы в качестве основных, либо подтверждающих, установить свои параметры индикаторов и задать условия для открытия сделок по Вашей стратегии. Таким образом, этот блок в роботе представляет собой гибкий КОНСТРУКТОР СТРАТЕГИЙ и подходит для продвинутых трейдеров, у которых есть собственная торговая стратегия, которую они хотят автоматизировать!</li> </ul> </div> <div class=\"ps\"> </div>",
+								"en":" "}
+						},
+						{
+							"id":"strategy_settings",
+							"title":{"ru":"Настройки стратегии","en":"Strategy settings"},
+							"selected":false,
+							"html_content":{
+								"ru":"<div class=\"training-content\"> <div class=\"title\"></div> <div class=\"content\"> Не забудьте авторизоваться на платформе под аккаунтом, зарегистрированном по <a class=\"open_reg\">ссылке</a> нашего проекта! <br />Перед запуском любой стратегии нужно задать ее настройки, для этого необходимо в прямоугольном блоке интересуемой стратегии нажать на значок <span class=\"six\"></span>(редактировать) и последовательно настроить разделы в режиме редактирования: <ul> <li class=\"six\">Активы. Доступны для выбора все активы на платформе.</li> <li class=\"six\">Индикаторы. Обратите внимание, что если Вы выбираете готовую стратегию из блока «БАЗОВЫЕ СТРАТЕГИИ, то Вам доступно в этом разделе только выбор таймфрейма. Если Вы создаете свою собственную стратегию в блоке «МОИ СТРАТЕГИИ», то Вам доступны настройки всех параметров индикаторов.</li> <li class=\"six\">Регламент. Здесь Вы выбираете режим торговли («Авто торговля/ подавать сигналы), время работы робота и минимальный % доходности актива.</li> <li class=\"six\">Торговые настройки. Здесь Вы задаете экспирацию, стартовую ставку, количество одновременных сделок, стоп лосс и тейк профит, при необходимости включаете мартингейл.</li> <li class=\"six\">Мартингейл. В данном разделе настраиваете параметры использования мартингейла и определяете, что будет делать робот при снижении доходности по активу или при отключении актива.</li> </ul> ЗАПУСК СТРАТЕГИИ. После настройки описанных выше разделов необходимо закрыть режим редактирования стратегии и запустить выбранную стратегию с помощью переключателя <span class=\"polzun\">, после чего стратегия становится активной и прямоугольное окно стратегии подсвечивается. Робот начинает торговлю по заданной стратегии! </div> <div class=\"ps\"> <b>ВАЖНО!</b> После запуска стратегии Вы можете закрыть/свернуть окно PocketOption Robot. При этом у Вас должен быть открыт браузер и выполнен вход в аккаунт, зарегистрированный по <a class=\"open_reg\">ссылке</a> нашего проекта. </div>",
+								"en":" "}
+						},
+						{
+							"id":"creating_strategy",
+							"title":{"ru":"Создание стратегии","en":"Creating a strategy"},
+							"selected":false,
+							"html_content":{
+								"ru":"<div class=\"training-content\"> <div class=\"title\"></div> <div class=\"content\"> В блоке «МОИ СТРАТЕГИИ» Вы можете создать абсолютно любую свою стратегию торговлю, выбрав основной и подтверждающий индикаторы и задав их параметры. Выделим основные настройки большинства индикаторов в роботе: <ul> <li class=\"begun\">Проверять условие. Здесь выбираем новый бар или новый тик. Если выбираем новый тик, то робот будет проверять значение индикатора непрерывно. Если выбираем новый бар, то робот проверяет значение индикатора в момент рождения новой свечи (то есть на первом тике)</li> <li class=\"begun\">Тип цены расчета индикатора. Любой индикатор может строится по ценам открытия, закрытия, минимума или максимума свечей (баров). Чаще всего при техническом анализе индикаторы строятся по ценам закрытия.</li> <li class=\"begun\">Таймфрейм. Предлагается выбор 1, 5, 10 мин для анализируемого графика цены актива.</li> <li class=\"begun\">На каком баре проверять значение. Если анализируем значение индикатора на текущей свече, то нужно выставлять значение «0», если на предыдущей сформировавшейся свече, то выставляем значение «-1» и т.д. ( -2, -3, -4 ….)</li> </ul> </div> <div class=\"ps\"> Если у Вас возникают трудности в настройке собственной стратегии, Вы всегда можете обратиться к нам за помощью. </div> <div>",
+								"en":" "}
+						},
+						{
+							"id":"transaction_history",
+							"title":{"ru":"История сделок","en":"Transaction history"},
+							"selected":false,
+							"html_content":{
+								"ru":"<div class=\"training-content\"> <div class=\"title\"></div> <div class=\"content\"> В меню робота имеется специальный раздел «ИСТОРИЯ», в котором содержится полная информация о всех сделках робота на платформе (время открытия, сумма, стратегия, шаг мартингейла, состояние). Также для Вашего удобства мы выделили отдельный информационной блок «СЕРИЯ МАРТИНГЕЙЛА», где Вы можете проанализировать историю сделок по мартингейлу по каждому сигналу. Эта информация очень полезна, если Вы торгуете на нескольких активах одновременно. </div> <div class=\"ps\"> </div> <div>",
+								"en":" "}
+						}
+					]
+				},
+				{
+					"id":"help",
+					"title":{"ru":"Помощь","en":"Help"},
+					"selected":false,
+					"submenu":[
+						{
+							"id":"contact",
+							"title":{"ru":"Контакты","en":"Сontact"},
+							"selected":true
+						},
+						{
+							"id":"chatOnline",
+							"title":{"ru":"Онлайн чат","en":"Сontact"},
+							"selected":false
+						}
+					]
+				}
+			]
+		},
+		"setting":{
+			"language":"ru",
+			"notification":{
+				"sound":{
+					"connecting_robot_platform":"connect.wav"
+				
+				}
+			},
+			"service_setings":{
+				"affiliate_id":null,
+				"reg_linc":null,
+				"support_vk":null
+			}
+		},
+		"strategy":{
+			"def":{},
+			"personal":{}
+		},
+		"indicators":{},
+		"logs":{
+			"err":[]
+		},
+		"pattern_new_strategy":{},
+		"tradesetings":{},
+		"martingale_settings":{},
+		"modesettings":{},
+		"all_trading_history":[]
+	},
+	"user":{},
+	"localization":{
+		"indicator":{"ru":"Индикаторы","en":"Indicator"},
+		"startingrate":{"ru":"Стартовая ставка","en":"Starting rate"},
+		"edit":{"ru":"Редактировать","en":"Edit"},
+		"removestrategy":{"ru":"Удалить стратегию","en":"Remove strategy"},
+		"runstrategy":{"ru":"Запустить стратегию","en":"Run strategy"},
+		"description":{"ru":"Состояние","en":"Status"},
+		"on":{"ru":"Вкл","en":"On"},
+		"off":{"ru":"Выкл","en":"Off"},
+		"selectall":{"ru":"Выбрать всё","en":"Select all"},
+		"remove_all":{"ru":"Cнять все","en":"Remove all"},
+		"no_trading_assets_selected":{"ru":"Нет выбранных активов","en":"No assets selected"},
+		"newindicators":{"ru":"Добавление индикатора","en":"Adding an indicator"},
+		"enternamestrategy":{"ru":"Введите имя своей стратегии","en":"Enter a name for your strategy"},
+		"err_strategy_busy":{"ru":"Имя данной стратегии занято, укажите другое.","en":"The name of this strategy is busy, please specify another."},
+		"err_invalidname":{"ru":"Недопустимое имя стратегии.","en":"Invalid strategy name."},
+		"main_indicators":{"ru":"Основной","en":"Main"},
+		"confirmatory_indicators":{"ru":"Подтверждающие","en":"Сonfirmatory"},
+		"remove_indicators":{"ru":"Удаление основного индикатора повлечет за собой удаление всех подтверждающих. Замените основной индикатор по Вашему желанию. Подтверждаете удаление всех индикаторов?","en":"The main indicator will entail the removal of all supporting. Replace the main indicator as You wish. Confirm removal of all indicators?"},
+		"from":{"ru":"С","en":"From"},
+		"to":{"ru":"До","en":"To"},
+		"delstep":{"ru":"Удалить шаг","en":"Remove the step"},
+		"not_closed_processed_transactions":{"ru":"Внимание! По данной стратегии есть незакрытые сделки! При отключении стратегии робот не будет их обрабатывать!","en":"Attention! According to this strategy, there are open transactions! If you disable the strategy, the robot will not process them!"},
+		"remove_strategy":{"ru":"Удалить стратегию","en":"Remove strategy"},
+		"signal_strategy_signals":{"ru":"Сигналы по стратегии","en":"Strategy signals"},
+		"signal_date":{"ru":"Дата","en":"Date"},
+		"signal_asset":{"ru":"Дата","en":"Asset"},
+		"signal_direction":{"ru":"Направление","en":"Direction"},
+		"signal_action":{"ru":"Действие","en":"Action"},
+		"signal_open_chart":{"ru":"Открыть график","en":"Open chart"},
+		"error_received":{"ru":"Получена ошибка","en":"Error received"},
+		"when_opening_trade":{"ru":"при открытии сделки","en":"when opening a trade"},
+		"refusal":{"ru":"Отказ","en":"Refusal"},
+		"not_enough_money_open_deal":{"ru":"Недостаточно средств для открытия сделки.","en":"Not enough money to open a deal."},
+		"second_attempt_open_trade_will_be_made":{"ru":"Будет произведена повторная попытка открытия сделки.","en":"A second attempt to open a trade will be made."},
+		"rediscovery":{"ru":"Повторное открытие","en":"Rediscovery"},
+		"due_to_error":{"ru":"в связи с ошибкой.","en":"due to error."},
+		"the_request_not_resubmitted_limit":{"ru":"Повторный запрос отправлен не будет. Израсходован лимит повторных запросов.","en":"The request will not be resubmitted. The limit of repeated requests has been used up."},
+		"no_information_received_from_platform_transaction":{"ru":"По сделке не была получена информация от платформы.","en":"No information was received from the platform on the transaction."},
+		"emergency_series":{"ru":"Аварийное завершение серии.","en":"Emergency end of the series."},
+		"closed_Errors":{"ru":"Закрыта(Ошибки)","en":"Closed(Errors)"},
+		"remove_signal":{"ru":"Удалить сигнал","en":"Remove signal"},
+		"received_signals_strategy":{"ru":"Получен сигнал по стратегии.","en":"The received signals for the strategy."},
+		"sl_worked":{"ru":"Сработал стоп лосс","en":"Stop loss worked"},
+		"tp_worked":{"ru":"Сработал тейк профит","en":"Take profit worked"},
+		"strategy_is_disabled":{"ru":"Стратегия отключена.","en":"Strategy is disabled."},
+		"martingale_action_canceled":{"ru":"действие по мартингейлу отменено.","en":"the martingale action has been canceled."},
+		"amount":{"ru":"Сумма","en":"Amount"},
+		"exceeds_available_account_balance":{"ru":"превышает доступный остаток на счете! Будет открыта сделка в размере доступного остатка.","en":"exceeds the available account balance! A trade will be opened in the amount of the available balance."},
+		"insufficient_funds_account":{"ru":"Недостаточно средств на счете","en":"Insufficient funds in the account"},
+		"request_open_rade_sent":{"ru":"Отправлен запрос на открытие сделки.","en":"A request to open a trade has been sent."},
+		"expected_open":{"ru":"Ожидается открытие","en":"It is expected to open"},
+		"opened_deal_platform":{"ru":"Открылась сделка на платформе.","en":"Opened a deal on the platform."},
+		"open":{"ru":"Открыта","en":"Open"},
+		"deal_closed_win":{"ru":"Сделка закрыта. Прогноз оправдался.","en":"The deal is closed. The forecast came true."},
+		"deal_closed_loose":{"ru":"Сделка закрыта. Прогноз не оправдался.","en":"The deal is closed. The forecast did not come true."},
+		"deal_closed_standoff":{"ru":"Сделка закрыта. Курс остался неизменным.","en":"The deal is closed. The course remained unchanged."},
+		"close":{"ru":"Закрыта","en":"Close"},
+		"martingale_notapplied_transaction_terminated":{"ru":"Мартингейл не применяется. Сопровождение сделки прекращено.","en":"Martingale is not applied. The transaction has been terminated."},
+		"strategy_disabled_transaction_terminated":{"ru":"Стратегия отключена. Сопровождение сделки прекращено.","en":"Strategy is disabled. The transaction has been terminated."},
+		"will_applied":{"ru":"Будет применен","en":"Will be applied"},
+		"step_martingale":{"ru":"шаг мартингейла","en":"step martingale"},
+		"step_martingale_z":{"ru":"Шаг мартингейла","en":"Step martingale"},
+		"direction_signal":{"ru":"по направлению сигнала","en":"in the direction of the signal"},
+		"applied":{"ru":"Применен","en":"Applied"},
+		"applying_step":{"ru":"Применение шага","en":"Applying a step"},
+		"martingale_impossible":{"ru":"мартингейла по направлению сигнала невозможно","en":"martingale in the direction of the signal is impossible"},
+		"since_expiration_itself":{"ru":"так как экспирация по активу или сам актив","en":"since the expiration of the asset or the asset itself"},
+		"became_unavailable":{"ru":"стал недоступен.","en":"became unavailable."},
+		"transfer_another_asset":{"ru":"Будет осуществлен переход на другой актив.","en":"The transfer to another asset will be made."},
+		"move_another_asset_bystep":{"ru":"Переход на другой актив по шагу","en":"Move to another asset step by step"},
+		"martingale_as":{"ru":"мартингейла, так как","en":"martingale, as"},
+		"was_not_available":{"ru":"стал не доступен.","en":"was not available."},
+		"waiting_activity_resume":{"ru":"Ожидание возобновления активности.","en":"Waiting for activity to resume."},
+		"availability_expiration_asset":{"ru":"Доступность и экспирация по активу","en":"Availability and expiration of the asset"},
+		"asset_recycled":{"ru":"восстановлена.","en":"recycled"},
+		"apply":{"ru":"Применяется","en":"Apply"},
+		"stopping_series":{"ru":"Останавливаю серию.","en":"Stopping the series."},
+		"since_asset":{"ru":"так как по активу","en":"since the asset"},
+		"yield_decreased":{"ru":"снизился % доходности","en":"% yield decreased"},
+		"according_instructions_transfer_another_asset":{"ru":"согласно инструкции будет произведен переход на другой актив.","en":"according to the instructions, the transfer to another asset will be made."},
+		"according_instructions_yield_will":{"ru":"согласно инструкции будет произведено ожидание увеличения % доходности.","en":"according to the instructions, the expectation of an increase in % yield will be made."},
+		"martingale_series_stopped":{"ru":"серия мартингейла будет остановлена.","en":"the martingale series will be stopped."},
+		"return_asset":{"ru":"Доходность по активу","en":"Return on asset"},
+		"against_direction_signal":{"ru":"против направления сигнала","en":"against the direction of the signal"},
+		"martingale_against_direction_impossible":{"ru":"мартингейла против направления сигнала невозможно","en":"martingale against the direction of the signal is impossible"},
+		"next_signal_new_asset":{"ru":"на следующем сигнале по новому активу","en":"on the next signal for the new asset"},
+		"all_steps_martingale_used_martingale_stopped":{"ru":"Использованы все шаги мартингейла. Серия мартингейла остановлена.","en":"All steps of martingale are used. The martingale series is stopped."},
+		"deal_re_opened":{"ru":"Открывается сделка повторно.","en":"The deal is re-opened."},
+		"rediscovery_transaction_not_changed":{"ru":"Повторное открытие. Так как  по прошлой сделке курс не изменился.","en":"Rediscovery. Since the last transaction rate has not changed."},
+		"robot_connected_platform":{"ru":"Робот подключен к платформе.","en":"The robot is connected to the platform."},
+		"notification":{"ru":"Уведомление","en":"Notification"},
+		"your_account_must_be_registered_link_project":{"ru":"Уважаемый пользователь!<br>Для бесплатного использования робота ваш аккаунт должен быть зарегистрирован по <a href='${regurl}' target='_blank' >ссылке</a> нашего проекта!<br><br> По всем возникающим вопросам  обращайтесь в сообщения нашей группы <a href='${vkurl}' target='_blank' class='vk' >ВК</a>","en":"Dear user! For free use of the robot, Your account must be registered at the link of our project."},
+		"trial_period_ends":{"ru":"Уважаемый пользователь!<br>Период Вашего доступа заканчивается через ${min} мин.<br>Для бесплатного использования робота ваш аккаунт должен быть зарегистрирован по <a href='${regurl}' target='_blank' >ссылке</a> нашего проекта!<br><br> По всем возникающим вопросам  обращайтесь в сообщения нашей группы <a href='${vkurl}' target='_blank' class='vk' >ВК</a>","en":"Your trial period Ends:"},
+		"you_want_use_robot_contact_group":{"ru":"Если Вы хотите использовать робот на платной основе, обратитесь в сообщения нашей группы","en":"If You want to use the robot on a paid basis, please contact our group"},
+		"vkontakte":{"ru":"ВКонтакте","en":"VKontakte"},
+		"noti_close":{"ru":"Закрыть","en":"Close"},
+		"register_account":{"ru":"Зарегистрировать аккаунт","en":"Register an account"},
+		"robot_not_connected_platform":{"ru":"Робот не подключен к платформе.","en":"The robot is not connected to the platform."},
+		"clear_history":{"ru":"Очистить историю","en":"Clear history"},
+		"update_history":{"ru":"Обновить историю","en":"Update history"},
+		"for_strategy":{"ru":"По стратегии","en":"For strategy"},
+		"there_no_closed_deals_history":{"ru":"есть незакрытые сделки. Для корректного удаления истории сделок дождитесь их завершения, или отключите данную стратегию.","en":"there are no closed deals. To correctly delete the history of transactions, wait for their completion, or disable this strategy."},
+		"there_deals_waiting_opened_newsignal":{"ru":"есть сделки, ожидающие открытия по новому сигналу. Для корректного удаления истории сделок дождитесь их открытия и завершения, или отключите данную стратегию.","en":"there are deals waiting to be opened on a new signal. To correctly delete the history of transactions, wait for them to open and complete, or disable this strategy."},
+		"really_delete_trade_history":{"ru":"Вы действительно хотите удалить историю сделок?","en":"Do you really want to delete your trade history?"},
+		"errors_deleting_history":{"ru":"При удалении истории возникли ошибки, попробуйте повторить","en":"If you have any errors when deleting history, try again"},
+		"about_series_martingale":{"ru":"Информация о серии мартингейла","en":"About the series the martingale"},
+		"series_id":{"ru":"id серии","en":"Series id"},
+		"strategy":{"ru":"Стратегия","en":"Strategy"},
+		"opening_time":{"ru":"Время открытия","en":"Opening time"},
+		"profit":{"ru":"Прибыль","en":"Profit"},
+		"number_steps":{"ru":"Количество шагов","en":"Number of steps"},
+		"asset":{"ru":"Актив","en":"Asset"},
+		"step":{"ru":"Шаг","en":"Step"},
+		"open_by_strategy":{"ru":"Открыта по стратегии","en":"Open by strategy"},
+		"id":{"ru":"Идентификатор","en":"ID"},
+		"expiration":{"ru":"Экспирация","en":"Expiration"},
+		"status":{"ru":"Статус","en":"status"},
+		"closing_time":{"ru":"Время закрытия","en":"Closing time"},
+		"a_series_martingale":{"ru":"Серия мартингейла","en":"A series of martingale"},
+		"discover":{"ru":"Открыть","en":"Discover"},
+		"comments":{"ru":"Комментарии","en":"Comments"},
+		"signal_active":{"ru":"Актив сигнала","en":"Signal active"},
+		"no_series_martingale":{"ru":"Нет серий мартингейла","en":"No series of the martingale"},
+		"no_trades_by_robot":{"ru":"Нет сделок, совершенных роботом","en":"No trades made by robot"},
+		"create_strategy":{"ru":"Создать стратегию","en":"To create a strategy"},
+		"add_step":{"ru":"Добавить шаг","en":"Add step"},
+		"strategy_disabled_martingale_canceled":{"ru":"Стратегия отключена. Действие по мартингейлу отменено.","en":"Strategy is disabled. The martingale action has been canceled."},
+		"wait_closing_open_trades_strategy":{"ru":"Дождитесь закрытия открытых сделок по данной стратегии.","en":"Wait for the closing of open trades, according to this strategy."},
+		"delete_running_strategy_inpas":{"ru":"Удаление запущенной стратегии невозможно.","en":"You cannot delete a running strategy."},
+		"wait_closing_opentrades_strategy":{"ru":"Удаление стратегии невозможно. Дождитесь закрытия открытых сделок по данной стратегии.","en":"You cannot delete a strategy. Wait for the closing of open trades, according to this strategy."},
+		"maximum_length_strategy_name":{"ru":"Максимальная длина имени стратегии 18 символов","en":"The maximum length of the strategy name is 18 characters"},
+		"demoacaunt":{"ru":"Учебный счет","en":"Demo account"},
+		"realacaunt":{"ru":"Реальный счет","en":"Real account"}
+	},
+	"initiator_storage_update":null
+}

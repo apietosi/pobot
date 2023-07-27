@@ -1,0 +1,1456 @@
+{	"pattern_new_strategy":{
+	"date_update":"1556517017",
+	"data":{
+		"id": "",
+		"status":"stopped",
+		"title": "",
+		"operating_time":{"from":"00:00","to":"00:00"},
+		"mode":"trade",
+		"initial_bet": 1,
+		"expiration":60,
+		"same_time_deals":3,
+		"sl":0,"tp":0,
+		"apply_mg":"no",
+		"martin":{"not_available_asset":"new_asset","lower_percent":60,"yield_reduction":"new_asset","steps":[{"coefficient":2.5,"action":"on_signal"}]},
+		"asset":{"EURUSD":{"id":"EURUSD","title":"EUR/USD"}},
+		"min_perc":70,
+		"indicator":[],
+		"settings_panel":{
+			"asset":{
+				"title":{"ru":"Активы","en":"Assets"},
+				"category":[
+					{"id":"currency","title":{"ru":"Валюты","en":"Assets"},"selected":true},
+					{"id":"cryptocurrency","title":{"ru":"Криптовалюты","en":"Digital currency"},"selected":false},
+					{"id":"commodity","title":{"ru":"Сырьевые товары","en":"Commodity"},"selected":false},
+					{"id":"stock","title":{"ru":"Акции","en":"Stock"},"selected":false},
+					{"id":"selected","title":{"ru":"Выбранные","en":"Selected"},"selected":false}
+				]
+			},
+			"indicators":{
+				"title":{"ru":"Индикаторы","en":"Indicators"},
+				"select_ind_id":0
+			}
+			
+		
+		},
+		"transaction":{
+			"open_trades":[],
+			"queue":[],
+			"signals":[],
+			"profit":0
+		}
+	}
+},
+"strategy_default":[
+	{"apply_mg":"no","asset":{},"expiration":60,"id":"stoch_intersection","indicator":[{"conditions":{"down":"_d>_t && _k>_t && _k<_d","up":"_d<_b && _k<_b && _k>_d"},"editing":{"tf":true},"id":"stochastic","indparms":{"bar":0,"bl":20,"ma":"SMA","period_d":3,"period_k":14,"slowdown":3,"tf":60,"time_inspection":"current","tl":80}},{"conditions":{"down":"_d>_t && _k>_t && _k>_d","up":"_d<_b && _k<_b && _k<_d"},"editing":{},"id":"stochastic","indparms":{"bar":-1,"bl":20,"ma":"SMA","period_d":3,"period_k":14,"slowdown":3,"tf":60,"time_inspection":"newbar","tl":80}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":2.5}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":1,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"Пересечение Stoch","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+	
+	{"apply_mg":"no","asset":{},"expiration":60,"id":"stoch_uturn","indicator":[{"conditions":{"down":"_k<_t && _k>_b","up":"_k<_t && _k>_b"},"editing":{"tf":true},"id":"stochastic","indparms":{"bar":0,"bl":20,"ma":"SMA","period_d":3,"period_k":14,"slowdown":3,"tf":60,"time_inspection":"current","tl":80}},{"conditions":{"down":"_k>_t","up":"_k<_b"},"editing":{},"id":"stochastic","indparms":{"bar":-1,"bl":20,"ma":"SMA","period_d":3,"period_k":14,"slowdown":3,"tf":60,"time_inspection":"newbar","tl":80}},{"conditions":{"down":"_d>_t","up":"_d<_b"},"editing":{},"id":"stochastic","indparms":{"bar":-1,"bl":20,"ma":"SMA","period_d":3,"period_k":14,"slowdown":3,"tf":60,"time_inspection":"newbar","tl":80}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":2.5}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":0,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"Разворот Stoch","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+
+	{"apply_mg":"no","asset":{},"expiration":60,"id":"entering_stochzones","indicator":[{"conditions":{"down":"_k>_t","up":"_k<_b"},"editing":{"tf":true},"id":"stochastic","indparms":{"bar":0,"bl":20,"ma":"SMA","period_d":3,"period_k":14,"slowdown":3,"tf":60,"time_inspection":"current","tl":80}},{"conditions":{"down":"_k<_t && _k>_b","up":"_k<_t && _k>_b"},"editing":{},"id":"stochastic","indparms":{"bar":-1,"bl":20,"ma":"SMA","period_d":3,"period_k":14,"slowdown":3,"tf":60,"time_inspection":"newbar","tl":80}},{"conditions":{"down":"_d<_t && _d>_b","up":"_d<_t && _d>_b"},"editing":{},"id":"stochastic","indparms":{"bar":-1,"bl":20,"ma":"SMA","period_d":3,"period_k":14,"slowdown":3,"tf":60,"time_inspection":"newbar","tl":80}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":2.5}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":0,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"Вход в зоны Stoch","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+
+	{"apply_mg":"yes","asset":{},"expiration":60,"id":"tricantrand","indicator":[{"conditions":{"down":"lastdir=='down'","up":"lastdir=='up'"},"editing":{"tf":true},"id":"candle","indparms":{"bar":-1,"mscan":10,"ncan":3,"tf":60,"time_inspection":"newbar","typecan":"repeat"}},{"conditions":{"down":"lastdir=='up'","up":"lastdir=='down'"},"editing":{},"id":"candle","indparms":{"bar":-4,"mscan":3,"ncan":1,"tf":60,"time_inspection":"newbar","typecan":"repeat"}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":"auto"}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":1,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"3-Свечи по тренду","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+	
+	{"apply_mg":"yes","asset":{},"expiration":60,"id":"tricanantitrand","indicator":[{"conditions":{"down":"lastdir=='up'","up":"lastdir=='down'"},"editing":{"tf":true},"id":"candle","indparms":{"bar":-1,"mscan":10,"ncan":3,"tf":60,"time_inspection":"newbar","typecan":"repeat"}},{"conditions":{"down":"lastdir=='down'","up":"lastdir=='up'"},"editing":{},"id":"candle","indparms":{"bar":-4,"mscan":3,"ncan":1,"tf":60,"time_inspection":"newbar","typecan":"repeat"}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":"auto"}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":0,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"3-Свечи анти тренд","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+	
+	{"apply_mg":"yes","asset":{},"expiration":60,"id":"contrataka","indicator":[{"conditions":{"down":"lastdir=='up'","up":"lastdir=='down'"},"editing":{"tf":true},"id":"candle","indparms":{"bar":0,"mscan":100,"ncan":1,"tf":60,"time_inspection":"current","typecan":"repeat"}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":"auto"}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":0,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"Контратака","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+	
+	{"apply_mg":"yes","asset":{},"expiration":60,"id":"bb_line","indicator":[{"conditions":{"down":"check_price>up_line","up":"check_price<down_line"},"editing":{"tf":true},"id":"bb","indparms":{"bar":-1,"bbperiod":20,"deviation":2,"pricetype":"close","pricetype_asset":"close","tf":60,"time_inspection":"newbar"}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":"auto"}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":0,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"Линии Боллинджера","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+	
+	{"apply_mg":"no","asset":{},"expiration":60,"id":"keltner_channel","indicator":[{"conditions":{"down":"check_price>up_line","up":"check_price<down_line"},"editing":{"tf":true},"id":"kc","indparms":{"atrPeriod":10,"bar":0,"emaPeriod":20,"multiplier":1,"pricetype":"close","pricetype_asset":"close","tf":60,"time_inspection":"newbar"}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":2.5}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":0,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"Канал Кельтнера","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+
+	{"apply_mg":"yes","asset":{},"expiration":60,"id":"indicator_rsi","indicator":[{"conditions":{"down":"val>tpl","up":"val<btl"},"editing":{"tf":true},"id":"rsi","indparms":{"bar":0,"btl":30,"period":14,"pricetype":"close","tf":60,"time_inspection":"newbar","tpl":70}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":"auto"}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":0,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"Индикатор RSI","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+	
+	{"apply_mg":"yes","asset":{},"expiration":60,"id":"bb_and_rsi","indicator":[{"conditions":{"down":"check_price>up_line","up":"check_price<down_line"},"editing":{"tf":true},"id":"bb","indparms":{"bar":-1,"bbperiod":20,"deviation":2,"pricetype":"close","pricetype_asset":"close","tf":60,"time_inspection":"newbar"}},{"conditions":{"down":"val>tpl","up":"val<btl"},"editing":{},"id":"rsi","indparms":{"bar":0,"btl":30,"period":14,"pricetype":"close","tf":60,"time_inspection":"newbar","tpl":70}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":"auto"}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":1,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"Л. Боллинджера+RSI","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+	
+	{"apply_mg":"yes","asset":{},"expiration":60,"id":"for_antitrand","indicator":[{"conditions":{"down":"lastdir=='up'","up":"lastdir=='down'"},"editing":{"tf":true},"id":"candle","indparms":{"bar":-1,"mscan":10,"ncan":4,"tf":60,"time_inspection":"newbar","typecan":"repeat"}},{"conditions":{"down":"lastdir=='down'","up":"lastdir=='up'"},"editing":{},"id":"candle","indparms":{"bar":-5,"mscan":3,"ncan":1,"tf":60,"time_inspection":"newbar","typecan":"repeat"}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":"auto"}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":0,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"4-Свечи анти тренд","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+	
+	{"apply_mg":"yes","asset":{},"expiration":60,"id":"five_antitrand","indicator":[{"conditions":{"down":"lastdir=='up'","up":"lastdir=='down'"},"editing":{"tf":true},"id":"candle","indparms":{"bar":-1,"mscan":10,"ncan":5,"tf":60,"time_inspection":"newbar","typecan":"repeat"}},{"conditions":{"down":"lastdir=='down'","up":"lastdir=='up'"},"editing":{},"id":"candle","indparms":{"bar":-6,"mscan":3,"ncan":1,"tf":60,"time_inspection":"newbar","typecan":"repeat"}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":"auto"}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":0,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"5-Свеч. анти тренд","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+	
+	{"apply_mg":"yes","asset":{},"expiration":60,"id":"tri_alternation","indicator":[{"conditions":{"down":"lastdir=='down'","up":"lastdir=='up'"},"editing":{"tf":true},"id":"candle","indparms":{"bar":-1,"mscan":10,"ncan":3,"tf":60,"time_inspection":"newbar","typecan":"alternate"}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":"auto"}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":0,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"3-Чередования","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+	
+	{"apply_mg":"yes","asset":{},"expiration":60,"id":"intersection_ma","indicator":[{"conditions":{"down":"onema<toma","up":"onema>toma"},"editing":{"tf":true,"oneMa_metod":true,"oneMa_period":true,"oneMa_pricetype":true,"toMa_metod":true,"toMa_period":true,"toMa_pricetype":true},"id":"twoSMA","indparms":{"bar":0,"oneMa_metod":"simple","oneMa_period":5,"oneMa_pricetype":"close","tf":60,"time_inspection":"current","toMa_metod":"simple","toMa_period":20,"toMa_pricetype":"close"}},{"conditions":{"down":"onema>toma","up":"onema<toma"},"editing":{},"id":"twoSMA","indparms":{"bar":-1,"oneMa_metod":"simple","oneMa_period":5,"oneMa_pricetype":"close","tf":60,"time_inspection":"newbar","toMa_metod":"simple","toMa_period":20,"toMa_pricetype":"close"}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":"auto"},{"action":"on_signal","coefficient":"auto"},{"action":"on_signal","coefficient":"auto"},{"action":"on_signal","coefficient":"auto"},{"action":"on_signal","coefficient":"auto"}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":0,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"Пересечение MA","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+	
+	{"apply_mg":"yes","asset":{},"expiration":60,"id":"level_hit","indicator":[{"conditions":{"down":"prise>max_level","up":"prise<min_level"},"editing":{"tf":true,"pt_max_level":true,"pt_min_level":true,"period":true},"id":"level","indparms":{"bar":0,"period":30,"pt_max_level":"high","pt_min_level":"low","tf":60,"time_inspection":"current"}},{"conditions":{"down":"prise<max_level","up":"prise>min_level"},"editing":{},"id":"level","indparms":{"bar":-1,"period":30,"pt_max_level":"high","pt_min_level":"low","tf":60,"time_inspection":"current"}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":"auto"},{"action":"on_signal","coefficient":"auto"},{"action":"on_signal","coefficient":"auto"}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":0,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"Отбитие от уровня","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}},
+	
+	{"apply_mg":"yes","asset":{},"expiration":60,"id":"penetration_level","indicator":[{"conditions":{"down":"prise<min_level","up":"prise>max_level"},"editing":{"tf":true,"pt_max_level":true,"pt_min_level":true,"period":true},"id":"level","indparms":{"bar":0,"period":30,"pt_max_level":"high","pt_min_level":"low","tf":60,"time_inspection":"current"}},{"conditions":{"down":"prise>min_level","up":"prise<max_level"},"editing":{},"id":"level","indparms":{"bar":-1,"period":30,"pt_max_level":"high","pt_min_level":"low","tf":60,"time_inspection":"current"}}],"initial_bet":1,"martin":{"lower_percent":60,"not_available_asset":"new_asset","steps":[{"action":"on_signal","coefficient":"auto"},{"action":"on_signal","coefficient":"auto"},{"action":"on_signal","coefficient":"auto"}],"yield_reduction":"new_asset"},"min_perc":70,"mode":"trade","operating_time":{"from":"00:00","to":"00:00"},"same_time_deals":3,"settings_panel":{"asset":{"category":[{"id":"currency","selected":true,"title":{"en":"Assets","ru":"Валюты"}},{"id":"cryptocurrency","selected":false,"title":{"en":"Digital currency","ru":"Криптовалюты"}},{"id":"commodity","selected":false,"title":{"en":"Commodity","ru":"Сырьевые товары"}},{"id":"stock","selected":false,"title":{"en":"Stock","ru":"Акции"}},{"id":"selected","selected":false,"title":{"en":"Selected","ru":"Выбранные"}}],"title":{"en":"Assets","ru":"Активы"}},"indicators":{"select_ind_id":0,"title":{"en":"Indicators","ru":"Индикаторы"}}},"sl":0,"status":"stopped","title":"Пробитие уровня","tp":0,"transaction":{"open_trades":[],"profit":0,"queue":[],"signals":[]}}
+],
+"modesettings":{
+	"id":"modesettings",
+	"title":{"ru":"Регламент","en":"Regulation"},
+	"date_update":"1556959263",
+	"data":[
+		{
+			"id":"mode",
+			"type":"select",
+			"title":{"ru":"Режим работы","en":"Operating modes"},
+			"value":[
+				{
+					"id":"trade",
+					"title":{"ru":"Авто торговля","en":"Auto trading"}
+				},
+				{
+					"id":"signal",
+					"title":{"ru":"Подавать сигналы","en":"To signal"}
+				}
+				
+			]
+		},
+		{
+			"id":"operating_time",
+			"type":"selecttime",
+			"title":{"ru":"Время работы","en":"Operating time"},
+			"value":{"from":"00:00","to":"00:00"}
+		},
+		{
+			"id":"min_perc",
+			"type":"input",
+			"title":{"ru":"Мин. % доходности","en":"Min. % yield"},
+			"value":{"min":10,"max":100,"default":70,"step":1,"whole":true}
+		}
+	]
+
+},
+"tradesetings":{
+	"id":"tradesetings",
+	"title":{"ru":"Торговые настройки","en":"Trading settings"},
+	"date_update":"1556959279",
+	"data":[
+		{
+			"id":"expiration",
+			"type":"input",
+			"title":{"ru":"Экспирация(сек)","en":"expiration(sec)"},
+			"value":{"min":5,"max":14400,"default":60,"step":1,"whole":true}
+		},
+		{
+			"id":"initial_bet",
+			"type":"input",
+			"title":{"ru":"Стартовая ставка","en":"Starting rate"},
+			"value":{"min":1,"max":1000,"default":1,"step":1,"whole":true}
+		},
+		{
+			"id":"same_time_deals",
+			"type":"input",
+			"title":{"ru":"Одновременных сделок","en":"Simultaneous transactions"},
+			"value":{"min":1,"max":10,"default":3,"step":1,"whole":true}
+		},
+		{
+			"id":"sl",
+			"type":"input",
+			"title":{"ru":"Стоп лосс","en":"stop-loss"},
+			"value":{"min":0,"max":10000,"default":0,"step":1,"whole":false}
+		},
+		{
+			"id":"tp",
+			"type":"input",
+			"title":{"ru":"Тейк профит","en":"Take-profit"},
+			"value":{"min":0,"max":10000,"default":0,"step":1,"whole":false}
+		},
+		{
+			"id":"apply_mg",
+			"type":"select",
+			"title":{"ru":"Применять мартингейл","en":"Apply martingale"},
+			"value":[
+				{
+					"id":"yes",
+					"title":{"ru":"Да","en":"Yes"}
+				},
+				{
+					"id":"no",
+					"title":{"ru":"Нет","en":"No"}
+				}
+			]
+		}
+	]
+},
+"martingale_settings":{
+	"id":"martingale_settings",
+	"title":{"ru":"Мартингейл","en":"Martingale"},
+	"date_update":"1556959274",
+	"data":
+	{
+		"lower_percent":{
+			"type":"input",
+			"title":null,
+			"value":{"min":10,"max":100,"default":70,"step":10,"whole":true,"editing":true}
+			
+		},
+		"not_available_asset":{
+			"type":"select",
+			"title":{"ru":"Действие при отключении актива","en":"Action when the asset is disabled"},
+			"value":[
+				{
+					"id":"wait",
+					"title":{"ru":"Ждать доступности","en":"Wait for availability"}
+				},
+				{
+					"id":"stop",
+					"title":{"ru":"Остановить серию","en":"Stop series"}
+				},
+				{
+					"id":"new_asset",
+					"title":{"ru":"Перейти на другой актив","en":"Switch to another asset"}
+				}
+			]
+		},
+		"effect_lower_percent":{
+			"type":"select",
+			"title":{"ru":"При снижении доходности","en":"With a decrease in profitability"},
+			"value":[
+				{
+					"id":"wait",
+					"title":{"ru":"Ждать увеличения %","en":"To increase the %"}
+				},
+				{
+					"id":"stop",
+					"title":{"ru":"Остановить серию","en":"Stop series"}
+				},
+				{
+					"id":"new_asset",
+					"title":{"ru":"Перейти на другой актив","en":"Switch to another asset"}
+				}
+			]
+		},
+		"steps":{
+			"title":{"ru":"Шаги мартингейла:","en":"Martingale steps:"},
+			"max":10,
+			"set_list":[
+				{
+					"id":"action",
+					"type":"select",
+					"title_min":{"ru":"Направление","en":"Direction"},
+					"title":{"ru":"Направление","en":"Direction"},
+					"value":[
+						{
+							"id":"on_signal",
+							"title":{"ru":"По сигналу","en":"On a signal"}
+						},
+						{
+							"id":"against_signal",
+							"title":{"ru":"Против сигнала","en":"Against the signal"}
+						},
+						{
+							"id":"new_asset",
+							"title":{"ru":"Новый актив","en":"New asset"}
+						}
+					]
+				},
+				{
+					"id":"coefficient",
+					"type":"num-txt",
+					"title_min":{"ru":"Коэф.","en":"Сoeff."},
+					"title":{"ru":"Коэффициент","en":"Сoefficient"},
+					"value":{"min":1,"max":1000,"default":2.5,"step":0.1,"whole":false},
+					"txt_data":{
+						"prefix":"",
+						"data":["auto"]
+					}
+				}
+			
+			]
+		}
+	}
+},
+"indicators":[
+	{
+		"id":"stochastic",
+		"title":"STOCH",
+		"date_update":"1592217555",
+		"template": {"id":"stochastic","editing":{},"indparms":{"time_inspection":"newbar","tf":60,"bar":0,"period_k":14,"period_d":3,"slowdown":3,"tl":80,"bl":20,"ma":"SMA"},"conditions":{"up":"_d<_b && _k<_b && _k>_d","down":"_d>_t && _k>_t && _k>_d"}},
+		"indparms":[
+			{
+				"id":"time_inspection",
+				"type":"select",
+				"title":{"ru":"Проверять условия","en":"Check the conditions"},
+				"value":[
+					{
+						"id":"newbar",
+						"title":{"ru":"Новый бар","en":"New bar"}
+					},
+					{
+						"id":"current",
+						"title":{"ru":"Новый тик","en":"New tick"}
+					}
+				
+				]
+			},
+			{
+				"id":"tf",
+				"type":"select",
+				"title":{"ru":"Таймфрейм","en":"Timeframe"},
+				"value":[
+					{
+						"id":60,
+						"title":{"ru":"1 минута","en":"1 minute"}
+					},
+					{
+						"id":300,
+						"title":{"ru":"5 минут","en":"5 minutes"}
+					},
+					{
+						"id":600,
+						"title":{"ru":"10 минут","en":"10 minutes"}
+					}
+				
+				]
+			},
+			{
+				"id":"bar",
+				"type":"input",
+				"title":{"ru":"На каком баре проверять значение","en":"On which bar to check the value"},
+				"value":{"min":-100,"max":0,"default":0,"step":1,"whole":true}
+			},
+			{
+				"id":"period_k",
+				"type":"input",
+				"title":{"ru":"%K – Быстрая линия стохастика","en":"%K-fast stochastic line"},
+				"value":{"min":1,"max":100,"default":14,"step":1,"whole":true}
+			},
+			{
+				"id":"period_d",
+				"type":"input",
+				"title":{"ru":"%D – Медленная линия стохастика","en":"%D – Slow line of the stochastics"},
+				"value":{"min":1,"max":100,"default":3,"step":1,"whole":true}
+			},
+			{
+				"id":"slowdown",
+				"type":"input",
+				"title":{"ru":"Замедление ","en":"Slowdown"},
+				"value":{"min":1,"max":100,"default":3,"step":1,"whole":true}
+			},
+			{
+				"id":"ma",
+				"type":"select",
+				"title":{"ru":"MA","en":"MA"},
+				"value":[
+					{
+						"id":"SMA",
+						"title":{"ru":"SMA","en":"SMA"}
+					} 
+				]
+			},
+			{
+				"id":"tl",
+				"type":"input",
+				"title":{"ru":"Зона перекупленности ","en":"Overbought level"},
+				"value":{"min":0,"max":100,"default":80,"step":1,"whole":true}
+			},
+			{
+				"id":"bl",
+				"type":"input",
+				"title":{"ru":"Зона перепроданности","en":"The oversold level"},
+				"value":{"min":0,"max":100,"default":20,"step":1,"whole":true}
+			}
+		],
+		"conditions":[
+			{
+				"id":"up",
+				"type":"select",
+				"title":{"ru":"&uarr; Сигнал на покупку","en":"&uarr; Buy signal"},
+				"value":[
+					{
+						"id":"_d>_t && _k>_t && _k>_d",
+						"short_title":"A",
+						"title":{"ru":"A-Обе линии стохастика К, D находятся в зоне перекупленности; значение К выше значения D","en":"A-Both lines of the stochastic K, D are in the overbought zone; the value of K is higher than the value of D"}
+					},
+					{
+						"id":"_d>_t && _k>_t && _k<_d",
+						"short_title":"B",
+						"title":{"ru":"B-Обе линии стохастика К, D находятся в зоне перекупленности; значение К ниже значения D","en":"B-Both lines of the stochastic K, D are in the overbought zone; the value of K is lower than the value of D"}
+					},
+					{
+						"id":"_d > _b && _d < _t && _k > _b && _k < _t && _k > _d",
+						"short_title":"C",
+						"title":{"ru":"C-Обе линии стохастика К, D находятся в умеренной зоне; значение К выше значения D","en":"C-Both lines of the stochastic K, D are in the moderate zone; the value of K is higher than the value of D"}
+					},
+					{
+						"id":"_d > _b && _d < _t && _k > _b && _k < _t && _k < _d",
+						"short_title":"D",
+						"title":{"ru":"D-Обе линии стохастика K, D находятся в умеренной зоне; значение K ниже значения D","en":"D-Both stochastic lines K, D are located in the moderate zone; the value of K is lower than the value of D"}
+					},
+					{
+						"id":"_d<_b && _k<_b && _k>_d",
+						"short_title":"E",
+						"title":{"ru":"E-Обе линии стохастика К, D находятся в зоне перепроданности; значение К выше значения D","en":"E-Both lines of the stochastic K, D are in the oversold zone; the value of K is higher than the value of D"}
+					},
+					{
+						"id":"_d<_b && _k<_b && _k<_d",
+						"short_title":"F",
+						"title":{"ru":"F-Обе линии стохастика К, D находятся в зоне перепроданности; значение К ниже значения D","en":"F-Both lines of the stochastic K, D are in the oversold zone; the value of K is lower than the value of D"}
+					},
+					{
+						"id":"_k>_t",
+						"short_title":"G",
+						"title":{"ru":"G-Быстрая линия стохастика К находится в зоне перекупленности","en":"G-The stochastic K fast line is in the overbought zone"}
+					},
+					{
+						"id":"_k<_t && _k>_b",
+						"short_title":"H",
+						"title":{"ru":"H-Быстрая линия стохастика К находится в умеренной зоне","en":"H-The stochastic K fast line is located in the moderate zone"}
+					},
+					{
+						"id":"_k<_b",
+						"short_title":"I",
+						"title":{"ru":"I-Быстрая линия стохастика К находится в зоне перепроданности","en":"I-The stochastic K fast line is in the oversold zone"}
+					},
+					{
+						"id":"_d>_t",
+						"short_title":"J",
+						"title":{"ru":"J-Медленная линия стохастика D находится в зоне перекупленности","en":"J-The slow line of stochastic D is in the overbought zone"}
+					},
+					{
+						"id":"_d<_t && _d>_b",
+						"short_title":"K",
+						"title":{"ru":"K-Медленная линия стохастика D находится в умеренной зоне","en":"K-The slow line of stochastic D is located in the moderate zone"}
+					},
+					{
+						"id":"_d<_b",
+						"short_title":"L",
+						"title":{"ru":"L-Медленная линия стохастика D находится в зоне перепроданности","en":"L-The slow line of stochastic D is in the oversold zone"}
+					},
+					{
+						"id":"false",
+						"short_title":"M",
+						"title":{"ru":"M-Не открывать сделку","en":"M-Do not open a transaction"}
+					}
+					 
+				]
+			},
+			{
+				"id":"down",
+				"type":"select",
+				"title":{"ru":"&darr; Сигнал на продажу","en":"&darr; Sell signal"},
+				"value":[
+					{
+						"id":"_d>_t && _k>_t && _k>_d",
+						"short_title":"A",
+						"title":{"ru":"A-Обе линии стохастика К, D находятся в зоне перекупленности; значение К выше значения D","en":"A-Both lines of the stochastic K, D are in the overbought zone; the value of K is higher than the value of D"}
+					},
+					{
+						"id":"_d>_t && _k>_t && _k<_d",
+						"short_title":"B",
+						"title":{"ru":"B-Обе линии стохастика К, D находятся в зоне перекупленности; значение К ниже значения D","en":"B-Both lines of the stochastic K, D are in the overbought zone; the value of K is lower than the value of D"}
+					},
+					{
+						"id":"_d > _b && _d < _t && _k > _b && _k < _t && _k > _d",
+						"short_title":"C",
+						"title":{"ru":"C-Обе линии стохастика К, D находятся в умеренной зоне; значение К выше значения D","en":"C-Both lines of the stochastic K, D are in the moderate zone; the value of K is higher than the value of D"}
+					},
+					{
+						"id":"_d > _b && _d < _t && _k > _b && _k < _t && _k < _d",
+						"short_title":"D",
+						"title":{"ru":"D-Обе линии стохастика K, D находятся в умеренной зоне; значение K ниже значения D","en":"D-Both stochastic lines K, D are located in the moderate zone; the value of K is lower than the value of D"}
+					},
+					{
+						"id":"_d<_b && _k<_b && _k>_d",
+						"short_title":"E",
+						"title":{"ru":"E-Обе линии стохастика К, D находятся в зоне перепроданности; значение К выше значения D","en":"E-Both lines of the stochastic K, D are in the oversold zone; the value of K is higher than the value of D"}
+					},
+					{
+						"id":"_d<_b && _k<_b && _k<_d",
+						"short_title":"F",
+						"title":{"ru":"F-Обе линии стохастика К, D находятся в зоне перепроданности; значение К ниже значения D","en":"F-Both lines of the stochastic K, D are in the oversold zone; the value of K is lower than the value of D"}
+					},
+					{
+						"id":"_k>_t",
+						"short_title":"G",
+						"title":{"ru":"G-Быстрая линия стохастика К находится в зоне перекупленности","en":"G-The stochastic K fast line is in the overbought zone"}
+					},
+					{
+						"id":"_k<_t && _k>_b",
+						"short_title":"H",
+						"title":{"ru":"H-Быстрая линия стохастика К находится в умеренной зоне","en":"H-The stochastic K fast line is located in the moderate zone"}
+					},
+					{
+						"id":"_k<_b",
+						"short_title":"I",
+						"title":{"ru":"I-Быстрая линия стохастика К находится в зоне перепроданности","en":"I-The stochastic K fast line is in the oversold zone"}
+					},
+					{
+						"id":"_d>_t",
+						"short_title":"J",
+						"title":{"ru":"J-Медленная линия стохастика D находится в зоне перекупленности","en":"J-The slow line of stochastic D is in the overbought zone"}
+					},
+					{
+						"id":"_d<_t && _d>_b",
+						"short_title":"K",
+						"title":{"ru":"K-Медленная линия стохастика D находится в умеренной зоне","en":"K-The slow line of stochastic D is located in the moderate zone"}
+					},
+					{
+						"id":"_d<_b",
+						"short_title":"L",
+						"title":{"ru":"L-Медленная линия стохастика D находится в зоне перепроданности","en":"L-The slow line of stochastic D is in the oversold zone"}
+					},
+					{
+						"id":"false",
+						"short_title":"M",
+						"title":{"ru":"M-Не открывать сделку","en":"M-Do not open a transaction"}
+					}
+					 
+				]
+			}
+		]
+	},
+	{
+		"id":"bb",
+		"title":"BBANDS",
+		"date_update":"1556517036",
+		"template": {"id":"bb","editing":{},"indparms":{"time_inspection":"newbar","pricetype":"close","tf":60,"pricetype_asset":"close","bar":0,"bbperiod":20,"deviation":2},"conditions":{"up":"check_price<down_line","down":"check_price>up_line"}},
+		"indparms":[
+			{
+				"id":"time_inspection",
+				"type":"select",
+				"title":{"ru":"Проверять условия","en":"Check the conditions"},
+				"value":[
+					{
+						"id":"newbar",
+						"title":{"ru":"Новый бар","en":"New bar"}
+					},
+					{
+						"id":"current",
+						"title":{"ru":"Новый тик","en":"New tick"}
+					}
+				
+				]
+			},
+			{
+				"id":"pricetype",
+				"type":"select",
+				"title":{"ru":"Тип цены расчета индикатора","en":"Price type of indicator calculation"},
+				"value":[
+					{
+						"id":"open",
+						"title":{"ru":"Открытие","en":"Open"}
+					},
+					{
+						"id":"close",
+						"title":{"ru":"Закрытие","en":"Close"}
+					},
+					{
+						"id":"high",
+						"title":{"ru":"Максимум","en":"Maximum"}
+					},
+					{
+						"id":"low",
+						"title":{"ru":"Минимум","en":"Minimum"}
+					}
+				
+				]
+			},
+			{
+				"id":"tf",
+				"type":"select",
+				"title":{"ru":"Таймфрейм","en":"Timeframe"},
+				"value":[
+					{
+						"id":60,
+						"title":{"ru":"1 минута","en":"1 minute"}
+					},
+					{
+						"id":300,
+						"title":{"ru":"5 минут","en":"5 minutes"}
+					},
+					{
+						"id":600,
+						"title":{"ru":"10 минут","en":"10 minutes"}
+					}
+				
+				]
+			},
+			{
+				"id":"pricetype_asset",
+				"type":"select",
+				"title":{"ru":"Aнализируемая цена бара","en":"Analyzed bar price"},
+				"value":[
+					{
+						"id":"open",
+						"title":{"ru":"Открытие","en":"Open"}
+					},
+					{
+						"id":"close",
+						"title":{"ru":"Закрытие","en":"Close"}
+					},
+					{
+						"id":"high",
+						"title":{"ru":"Максимум","en":"Maximum"}
+					},
+					{
+						"id":"low",
+						"title":{"ru":"Минимум","en":"Minimum"}
+					}
+				
+				]
+			},
+			{
+				"id":"bar",
+				"type":"input",
+				"title":{"ru":"На каком баре проверять значение","en":"On which bar to check the value"},
+				"value":{"min":-100,"max":0,"default":0,"step":1,"whole":true}
+			},
+			{
+				"id":"bbperiod",
+				"type":"input",
+				"title":{"ru":"Период BB","en":"Period BB"},
+				"value":{"min":5,"max":150,"default":20,"step":1,"whole":true}
+			},
+			{
+				"id":"deviation",
+				"type":"input",
+				"title":{"ru":"Отклонение % ","en":"deviation %"},
+				"value":{"min":0,"max":100,"default":14,"step":0.1,"whole":false}
+			}
+		],
+		"conditions":[
+			{
+				"id":"up",
+				"type":"select",
+				"title":{"ru":"&uarr; Сигнал на покупку","en":"&uarr; Buy signal"},
+				"value":[
+					{
+						"id":"check_price<down_line",
+						"short_title":"A",
+						"title":{"ru":"A-Цена ниже нижней линии индикатора","en":"A-The price is below the lower line of the indicator"}
+					},
+					{
+						"id":"check_price>up_line",
+						"short_title":"B",
+						"title":{"ru":"B-Цена выше верхней линии индикатора","en":"B-The price is below the lower line of the indicator"}
+					},
+					{
+						"id":"check_price>down_line && check_price<up_line",
+						"short_title":"C",
+						"title":{"ru":"C-Цена находится между верхней и нижней линией","en":"C-The price is between the upper and lower line"}
+					},
+					{
+						"id":"false",
+						"short_title":"D",
+						"title":{"ru":"D-Не открывать сделку","en":"D-Do not open a trade"}
+					}
+				]
+			},
+			{
+				"id":"down",
+				"type":"select",
+				"title":{"ru":"&darr; Сигнал на продажу","en":"&darr; Sell signal"},
+				"value":[
+					{
+						"id":"check_price<down_line",
+						"short_title":"A",
+						"title":{"ru":"A-Цена ниже нижней линии индикатора","en":"A-The price is below the lower line of the indicator"}
+					},
+					{
+						"id":"check_price>up_line",
+						"short_title":"B",
+						"title":{"ru":"B-Цена выше верхней линии индикатора","en":"B-The price is below the lower line of the indicator"}
+					},
+					{
+						"id":"check_price>down_line && check_price<up_line",
+						"short_title":"C",
+						"title":{"ru":"C-Цена находится между верхней и нижней линией","en":"C-The price is between the upper and lower line"}
+					},
+					{
+						"id":"false",
+						"short_title":"D",
+						"title":{"ru":"D-Не открывать сделку","en":"D-Do not open a trade"}
+					}
+				]
+			}
+		]
+	},
+	{
+		"id":"candle",
+		"title":"CANDLE",
+		"date_update":"1556517037",
+		"template": {"id":"candle","editing":{},"indparms":{"time_inspection":"newbar","tf":60,"typecan":"repeat","ncan":3,"mscan":10,"bar":0},"conditions":{"up":"lastdir=='up'","down":"lastdir=='down'"}},
+		"indparms":[
+			{
+				"id":"time_inspection",
+				"type":"select",
+				"title":{"ru":"Проверять условия","en":"Check the conditions"},
+				"value":[
+					{
+						"id":"newbar",
+						"title":{"ru":"Новый бар","en":"New bar"}
+					},
+					{
+						"id":"current",
+						"title":{"ru":"Новый тик","en":"New tick"}
+					}
+				
+				]
+			},
+			{
+				"id":"typecan",
+				"type":"select",
+				"title":{"ru":"Комбинация свечей","en":"The combination of candlesticks"},
+				"value":[
+					{
+						"id":"repeat",
+						"title":{"ru":"Повторяются","en":"repeat"}
+					},
+					{
+						"id":"alternate",
+						"title":{"ru":"Чередуются","en":"Alternate"}
+					}
+				
+				]
+			},
+			{
+				"id":"tf",
+				"type":"select",
+				"title":{"ru":"Таймфрейм","en":"Timeframe"},
+				"value":[
+					{
+						"id":60,
+						"title":{"ru":"1 минута","en":"1 minute"}
+					},
+					{
+						"id":300,
+						"title":{"ru":"5 минут","en":"5 minutes"}
+					},
+					{
+						"id":600,
+						"title":{"ru":"10 минут","en":"10 minutes"}
+					}
+				
+				]
+			},
+			{
+				"id":"bar",
+				"type":"input",
+				"title":{"ru":"Первая проверяемая свеча","en":"First candle to be checked"},
+				"value":{"min":-100,"max":0,"default":0,"step":1,"whole":true}
+			},
+			{
+				"id":"ncan",
+				"type":"input",
+				"title":{"ru":"Количество проверяемых свечей","en":"Number of candles to be checked"},
+				"value":{"min":1,"max":150,"default":3,"step":1,"whole":true}
+			},
+			{
+				"id":"mscan",
+				"type":"input",
+				"title":{"ru":"Мин. размер проверяемой свечи(пипс)","en":"Min. check the size of the candle(pips)"},
+				"value":{"min":1,"max":1000,"default":10,"step":1,"whole":true}
+			}
+		],
+		"conditions":[
+			{
+				"id":"up",
+				"type":"select",
+				"title":{"ru":"&uarr; Сигнал на покупку","en":"&uarr; Buy signal"},
+				"value":[
+					{
+						"id":"lastdir=='up'",
+						"short_title":"A",
+						"title":{"ru":"A-Первая проверяемая свеча закрылась вверх &uarr;","en":"A-First checked candle closed up &uarr;"}
+					},
+					{
+						"id":"lastdir=='down'",
+						"short_title":"B",
+						"title":{"ru":"B-Первая проверяемая свеча закрылась вниз &darr;","en":"B-check the First candle closed down &darr;"}
+					},
+					{
+						"id":"false",
+						"short_title":"C",
+						"title":{"ru":"C-Не открывать сделку","en":"C-Do not open a trade"}
+					}
+				]
+			},
+			{
+				"id":"down",
+				"type":"select",
+				"title":{"ru":"&darr; Сигнал на продажу","en":"&darr; Sell signal"},
+				"value":[
+					{
+						"id":"lastdir=='up'",
+						"short_title":"A",
+						"title":{"ru":"A-Первая проверяемая свеча закрылась вверх &uarr;","en":"A-First checked candle closed up &uarr;"}
+					},
+					{
+						"id":"lastdir=='down'",
+						"short_title":"B",
+						"title":{"ru":"B-Первая проверяемая свеча закрылась вниз &darr;","en":"B-check the First candle closed down &darr;"}
+					},
+					{
+						"id":"false",
+						"short_title":"C",
+						"title":{"ru":"C-Не открывать сделку","en":"C-Do not open a trade"}
+					}
+				]
+			}
+		]
+	},
+	{
+		"id":"rsi",
+		"title":"RSI",
+		"date_update":"1556517033",
+		"template": {"id":"rsi","editing":{},"indparms":{"time_inspection":"newbar","tf":60,"period":14,"pricetype":"close","bar":0,"btl":30,"tpl":70},"conditions":{"up":"val<btl","down":"val>tpl"}},
+		"indparms":[
+			{
+				"id":"time_inspection",
+				"type":"select",
+				"title":{"ru":"Проверять условия","en":"Check the conditions"},
+				"value":[
+					{
+						"id":"newbar",
+						"title":{"ru":"Новый бар","en":"New bar"}
+					},
+					{
+						"id":"current",
+						"title":{"ru":"Новый тик","en":"New tick"}
+					}
+				
+				]
+			},
+			{
+				"id":"pricetype",
+				"type":"select",
+				"title":{"ru":"Тип цены расчета индикатора","en":"Price type of indicator calculation"},
+				"value":[
+					{
+						"id":"open",
+						"title":{"ru":"Открытие","en":"Open"}
+					},
+					{
+						"id":"close",
+						"title":{"ru":"Закрытие","en":"Close"}
+					},
+					{
+						"id":"high",
+						"title":{"ru":"Максимум","en":"Maximum"}
+					},
+					{
+						"id":"low",
+						"title":{"ru":"Минимум","en":"Minimum"}
+					}
+				
+				]
+			},
+			{
+				"id":"tf",
+				"type":"select",
+				"title":{"ru":"Таймфрейм","en":"Timeframe"},
+				"value":[
+					{
+						"id":60,
+						"title":{"ru":"1 минута","en":"1 minute"}
+					},
+					{
+						"id":300,
+						"title":{"ru":"5 минут","en":"5 minutes"}
+					},
+					{
+						"id":600,
+						"title":{"ru":"10 минут","en":"10 minutes"}
+					}
+				
+				]
+			},
+			{
+				"id":"bar",
+				"type":"input",
+				"title":{"ru":"На каком баре проверять значение","en":"On which bar to check the value"},
+				"value":{"min":-96,"max":0,"default":0,"step":1,"whole":true}
+			},
+			{
+				"id":"period",
+				"type":"input",
+				"title":{"ru":"Период RSI","en":"Period"},
+				"value":{"min":3,"max":96,"default":14,"step":1,"whole":true}
+			},
+			{
+				"id":"tpl",
+				"type":"input",
+				"title":{"ru":"Зона перекупленности","en":"Overbought zone"},
+				"value":{"min":1,"max":100,"default":70,"step":1,"whole":false}
+			},
+			{
+				"id":"btl",
+				"type":"input",
+				"title":{"ru":"Зона перепроданности","en":"Oversold zone"},
+				"value":{"min":1,"max":100,"default":30,"step":1,"whole":false}
+			}
+		],
+		"conditions":[
+			{
+				"id":"up",
+				"type":"select",
+				"title":{"ru":"&uarr; Сигнал на покупку","en":"&uarr; Buy signal"},
+				"value":[
+					{
+						"id":"val<btl",
+						"short_title":"A",
+						"title":{"ru":"A-Линия индикатора находится в зоне перепроданности","en":"A-The indicator line is in the oversold zone"}
+					},
+					{
+						"id":"val>tpl",
+						"short_title":"B",
+						"title":{"ru":"B-Линия индикатора находится в зоне перекупленности","en":"B-The indicator line is in the overbought zone"}
+					},
+					{
+						"id":"val<tpl && val>btl",
+						"short_title":"C",
+						"title":{"ru":"C-Линия индикатора находится умеренной зоне","en":"C-The indicator line is in the moderate zone"}
+					},
+					{
+						"id":"false",
+						"short_title":"D",
+						"title":{"ru":"D-Не открывать сделку","en":"D-Do not open a trade"}
+					}
+				]
+			},
+			{
+				"id":"down",
+				"type":"select",
+				"title":{"ru":"&darr; Сигнал на продажу","en":"&darr; Sell signal"},
+				"value":[
+					{
+						"id":"val<btl",
+						"short_title":"A",
+						"title":{"ru":"A-Линия индикатора находится в зоне перепроданности","en":"A-The indicator line is in the oversold zone"}
+					},
+					{
+						"id":"val>tpl",
+						"short_title":"B",
+						"title":{"ru":"B-Линия индикатора находится в зоне перекупленности","en":"B-The indicator line is in the overbought zone"}
+					},
+					{
+						"id":"val<tpl && val>btl",
+						"short_title":"C",
+						"title":{"ru":"C-Линия индикатора находится умеренной зоне","en":"C-The indicator line is in the moderate zone"}
+					},
+					{
+						"id":"false",
+						"short_title":"D",
+						"title":{"ru":"D-Не открывать сделку","en":"D-Do not open a trade"}
+					}
+				]
+			}
+		]
+		 
+	},
+	{
+		"id":"twoSMA",
+		"title":"2*MA",
+		"date_update":"1562257540",
+		"template": {"id":"twoSMA","editing":{},"indparms":{"time_inspection":"newbar","oneMa_metod":"simple","oneMa_period":5,"oneMa_pricetype":"close","toMa_metod":"simple","toMa_period":20,"toMa_pricetype":"close","tf":60,"bar":0},"conditions":{"up":"onema>toma","down":"onema<toma"}},
+		"indparms":[
+			{
+				"id":"time_inspection",
+				"type":"select",
+				"title":{"ru":"Проверять условия","en":"Check the conditions"},
+				"value":[
+					{
+						"id":"newbar",
+						"title":{"ru":"Новый бар","en":"New bar"}
+					},
+					{
+						"id":"current",
+						"title":{"ru":"Новый тик","en":"New tick"}
+					}
+				
+				]
+			},
+			{
+				"id":"bar",
+				"type":"input",
+				"title":{"ru":"На каком баре проверять значение индикаторов","en":"On which bar to check the value"},
+				"value":{"min":-100,"max":0,"default":0,"step":1,"whole":true}
+			},
+			{
+				"id":"oneMa_metod",
+				"type":"select",
+				"title":{"ru":"Метод усреднения MA_1","en":"Smoothing method MA_1"},
+				"value":[
+					{
+						"id":"simple",
+						"title":{"ru":"SMA","en":"SMA"}
+					},
+					{
+						"id":"exponential",
+						"title":{"ru":"EMA","en":"EMA"}
+					},
+					{
+						"id":"smoothed",
+						"title":{"ru":"SMMA","en":"SMMA"}
+					},
+					{
+						"id":"lweighted",
+						"title":{"ru":"WMA","en":"WMA"}
+					}
+				]
+			},
+			{
+				"id":"oneMa_period",
+				"type":"input",
+				"title":{"ru":"Период MA_1","en":"Period MA_1"},
+				"value":{"min":1,"max":90,"default":5,"step":1,"whole":true}
+			},
+			{
+				"id":"oneMa_pricetype",
+				"type":"select",
+				"title":{"ru":"Тип цены расчета индикатора MA_1","en":"Price type of indicator calculation MA_1"},
+				"value":[
+					{
+						"id":"open",
+						"title":{"ru":"Открытие","en":"Open"}
+					},
+					{
+						"id":"close",
+						"title":{"ru":"Закрытие","en":"Close"}
+					},
+					{
+						"id":"high",
+						"title":{"ru":"Максимум","en":"Maximum"}
+					},
+					{
+						"id":"low",
+						"title":{"ru":"Минимум","en":"Minimum"}
+					}
+				
+				]
+			},
+			{
+				"id":"toMa_metod",
+				"type":"select",
+				"title":{"ru":"Метод усреднения MA_2","en":"Smoothing method MA_2"},
+				"value":[
+					{
+						"id":"simple",
+						"title":{"ru":"SMA","en":"SMA"}
+					},
+					{
+						"id":"exponential",
+						"title":{"ru":"EMA","en":"EMA"}
+					},
+					{
+						"id":"smoothed",
+						"title":{"ru":"SMMA","en":"SMMA"}
+					},
+					{
+						"id":"lweighted",
+						"title":{"ru":"WMA","en":"WMA"}
+					}
+				]
+			},
+			{
+				"id":"toMa_period",
+				"type":"input",
+				"title":{"ru":"Период MA_2","en":"Period MA_2"},
+				"value":{"min":1,"max":90,"default":5,"step":1,"whole":true}
+			},
+			{
+				"id":"toMa_pricetype",
+				"type":"select",
+				"title":{"ru":"Тип цены расчета индикатора MA_2","en":"Price type of indicator calculation MA_2"},
+				"value":[
+					{
+						"id":"open",
+						"title":{"ru":"Открытие","en":"Open"}
+					},
+					{
+						"id":"close",
+						"title":{"ru":"Закрытие","en":"Close"}
+					},
+					{
+						"id":"high",
+						"title":{"ru":"Максимум","en":"Maximum"}
+					},
+					{
+						"id":"low",
+						"title":{"ru":"Минимум","en":"Minimum"}
+					}
+				
+				]
+			},
+			{
+				"id":"tf",
+				"type":"select",
+				"title":{"ru":"Таймфрейм","en":"Timeframe"},
+				"value":[
+					{
+						"id":60,
+						"title":{"ru":"1 минута","en":"1 minute"}
+					},
+					{
+						"id":300,
+						"title":{"ru":"5 минут","en":"5 minutes"}
+					},
+					{
+						"id":600,
+						"title":{"ru":"10 минут","en":"10 minutes"}
+					}
+				
+				]
+			}
+		],
+		"conditions":[
+			{
+				"id":"up",
+				"type":"select",
+				"title":{"ru":"&uarr; Сигнал на покупку","en":"&uarr; Buy signal"},
+				"value":[
+					{
+						"id":"onema>toma",
+						"short_title":"A",
+						"title":{"ru":"A-Значение MA_1 выше MA_2","en":"A-Value above MA_1 MA_2"}
+					},
+					{
+						"id":"onema<toma",
+						"short_title":"B",
+						"title":{"ru":"B-Значение MA_1 ниже MA_2","en":"B-Value below MA_1 MA_2"}
+					},
+					{
+						"id":"false",
+						"short_title":"C",
+						"title":{"ru":"C-Не открывать сделку","en":"C-Do not open a trade"}
+					}
+				]
+			},
+			{
+				"id":"down",
+				"type":"select",
+				"title":{"ru":"&darr; Сигнал на продажу","en":"&darr; Sell signal"},
+				"value":[
+					{
+						"id":"onema>toma",
+						"short_title":"A",
+						"title":{"ru":"A-Значение MA_1 выше MA_2","en":"A-Value above MA_1 MA_2"}
+					},
+					{
+						"id":"onema<toma",
+						"short_title":"B",
+						"title":{"ru":"B-Значение MA_1 ниже MA_2","en":"B-Value below MA_1 MA_2"}
+					},
+					{
+						"id":"false",
+						"short_title":"C",
+						"title":{"ru":"C-Не открывать сделку","en":"C-Do not open a trade"}
+					}
+				]
+			}
+		]
+		 
+	},
+	{
+		"id":"level",
+		"title":"LEVEL",
+		"date_update":"1563981725",
+		"template": {"id":"level","editing":{},"indparms":{"time_inspection":"current","bar":0,"period":15,"tf":60,"pt_max_level":"high","pt_min_level":"low"},"conditions":{"up":"prise<min_level","down":"prise>max_level"}},
+		"indparms":[
+			{
+				"id":"time_inspection",
+				"type":"select",
+				"title":{"ru":"Проверять условия","en":"Check the conditions"},
+				"value":[
+					{
+						"id":"newbar",
+						"title":{"ru":"Новый бар","en":"New bar"}
+					},
+					{
+						"id":"current",
+						"title":{"ru":"Новый тик","en":"New tick"}
+					}
+				
+				]
+			},
+			{
+				"id":"tf",
+				"type":"select",
+				"title":{"ru":"Таймфрейм","en":"Timeframe"},
+				"value":[
+					{
+						"id":60,
+						"title":{"ru":"1 минута","en":"1 minute"}
+					},
+					{
+						"id":300,
+						"title":{"ru":"5 минут","en":"5 minutes"}
+					},
+					{
+						"id":600,
+						"title":{"ru":"10 минут","en":"10 minutes"}
+					}
+				
+				]
+			},
+			{
+				"id":"pt_max_level",
+				"type":"select",
+				"title":{"ru":"Анализ цен для уровня сопротивления","en":"Price analysis for resistance level"},
+				"value":[
+					{
+						"id":"open",
+						"title":{"ru":"Открытие","en":"Open"}
+					},
+					{
+						"id":"close",
+						"title":{"ru":"Закрытие","en":"Close"}
+					},
+					{
+						"id":"high",
+						"title":{"ru":"Максимум","en":"Maximum"}
+					},
+					{
+						"id":"low",
+						"title":{"ru":"Минимум","en":"Minimum"}
+					}
+				
+				]
+			},
+			{
+				"id":"pt_min_level",
+				"type":"select",
+				"title":{"ru":"Анализ цен для уровня поддержки","en":"Analysis of prices for the level of support"},
+				"value":[
+					{
+						"id":"open",
+						"title":{"ru":"Открытие","en":"Open"}
+					},
+					{
+						"id":"close",
+						"title":{"ru":"Закрытие","en":"Close"}
+					},
+					{
+						"id":"high",
+						"title":{"ru":"Максимум","en":"Maximum"}
+					},
+					{
+						"id":"low",
+						"title":{"ru":"Минимум","en":"Minimum"}
+					}
+				
+				]
+			},
+			{
+				"id":"bar",
+				"type":"input",
+				"title":{"ru":"Анализируемый бар проверки цены","en":"Analyzed price check bar"},
+				"value":{"min":-100,"max":0,"default":0,"step":1,"whole":true}
+			},
+			{
+				"id":"period",
+				"type":"input",
+				"title":{"ru":"Период","en":"Period"},
+				"value":{"min":1,"max":94,"default":15,"step":1,"whole":true}
+			}
+		],
+		"conditions":[
+			{
+				"id":"up",
+				"type":"select",
+				"title":{"ru":"&uarr; Сигнал на покупку","en":"&uarr; Buy signal"},
+				"value":[
+					{
+						"id":"prise>max_level",
+						"short_title":"A",
+						"title":{"ru":"A-Цена выше уровня сопротивления","en":"A-The price above the resistance level"}
+					},
+					{
+						"id":"prise<max_level",
+						"short_title":"B",
+						"title":{"ru":"B-Цена ниже уровня сопротивления","en":"B-Price below resistance level"}
+					},
+					{
+						"id":"prise<min_level",
+						"short_title":"C",
+						"title":{"ru":"C-Цена ниже уровня поддержки","en":"C-Price below support level"}
+					},
+					{
+						"id":"prise>min_level",
+						"short_title":"D",
+						"title":{"ru":"D-Цена выше уровня поддержки","en":"D-Price above support level"}
+					},
+					{
+						"id":"false",
+						"short_title":"E",
+						"title":{"ru":"E-Не открывать сделку","en":"E-Do not open a trade"}
+					}
+				]
+			},
+			{
+				"id":"down",
+				"type":"select",
+				"title":{"ru":"&darr; Сигнал на продажу","en":"&darr; Sell signal"},
+				"value":[
+					{
+						"id":"prise>max_level",
+						"short_title":"A",
+						"title":{"ru":"A-Цена выше уровня сопротивления","en":"A-The price above the resistance level"}
+					},
+					{
+						"id":"prise<max_level",
+						"short_title":"B",
+						"title":{"ru":"B-Цена ниже уровня сопротивления","en":"B-Price below resistance level"}
+					},
+					{
+						"id":"prise<min_level",
+						"short_title":"C",
+						"title":{"ru":"C-Цена ниже уровня поддержки","en":"C-Price below support level"}
+					},
+					{
+						"id":"prise>min_level",
+						"short_title":"D",
+						"title":{"ru":"D-Цена выше уровня поддержки","en":"D-Price above support level"}
+					},
+					{
+						"id":"false",
+						"short_title":"E",
+						"title":{"ru":"E-Не открывать сделку","en":"E-Do not open a trade"}
+					}
+				]
+			}
+		]
+		 
+	},
+	{
+		"id":"kc",
+		"title":"KCHANNEL",
+		"date_update":"1648057256",
+		"template": {"id":"kc","editing":{},"indparms":{"time_inspection":"newbar","pricetype":"close","tf":60,"pricetype_asset":"close","bar":0,"emaPeriod":20,"atrPeriod":10,"multiplier":1},"conditions":{"up":"check_price<down_line","down":"check_price>up_line"}},
+		"indparms":[
+			{
+				"id":"time_inspection",
+				"type":"select",
+				"title":{"ru":"Проверять условия","en":"Check the conditions"},
+				"value":[
+					{
+						"id":"newbar",
+						"title":{"ru":"Новый бар","en":"New bar"}
+					},
+					{
+						"id":"current",
+						"title":{"ru":"Новый тик","en":"New tick"}
+					}
+				
+				]
+			},
+			{
+				"id":"tf",
+				"type":"select",
+				"title":{"ru":"Таймфрейм","en":"Timeframe"},
+				"value":[
+					{
+						"id":60,
+						"title":{"ru":"1 минута","en":"1 minute"}
+					},
+					{
+						"id":300,
+						"title":{"ru":"5 минут","en":"5 minutes"}
+					},
+					{
+						"id":600,
+						"title":{"ru":"10 минут","en":"10 minutes"}
+					}
+				
+				]
+			},
+			{
+				"id":"pricetype_asset",
+				"type":"select",
+				"title":{"ru":"Aнализируемая цена бара","en":"Analyzed bar price"},
+				"value":[
+					{
+						"id":"open",
+						"title":{"ru":"Открытие","en":"Open"}
+					},
+					{
+						"id":"close",
+						"title":{"ru":"Закрытие","en":"Close"}
+					},
+					{
+						"id":"high",
+						"title":{"ru":"Максимум","en":"Maximum"}
+					},
+					{
+						"id":"low",
+						"title":{"ru":"Минимум","en":"Minimum"}
+					}
+				
+				]
+			},
+			{
+				"id":"bar",
+				"type":"input",
+				"title":{"ru":"На каком баре проверять значение","en":"On which bar to check the value"},
+				"value":{"min":-100,"max":0,"default":0,"step":1,"whole":true}
+			},
+			{
+				"id":"emaPeriod",
+				"type":"input",
+				"title":{"ru":"Период EMA","en":"Period EMA"},
+				"value":{"min":5,"max":150,"default":20,"step":1,"whole":true}
+			},
+			{
+				"id":"atrPeriod",
+				"type":"input",
+				"title":{"ru":"Период ATR","en":"Period ATR"},
+				"value":{"min":5,"max":150,"default":10,"step":1,"whole":true}
+			},
+			{
+				"id":"multiplier",
+				"type":"input",
+				"title":{"ru":"Множитель","en":"Multiplier"},
+				"value":{"min":1,"max":5,"default":1,"step":1,"whole":false}
+			}
+		],
+		"conditions":[
+			{
+				"id":"up",
+				"type":"select",
+				"title":{"ru":"&uarr; Сигнал на покупку","en":"&uarr; Buy signal"},
+				"value":[
+					{
+						"id":"check_price<down_line",
+						"short_title":"A",
+						"title":{"ru":"A-Цена ниже нижней линии индикатора","en":"A-The price is below the lower line of the indicator"}
+					},
+					{
+						"id":"check_price>up_line",
+						"short_title":"B",
+						"title":{"ru":"B-Цена выше верхней линии индикатора","en":"B-The price is below the lower line of the indicator"}
+					},
+					{
+						"id":"check_price>down_line && check_price<up_line",
+						"short_title":"C",
+						"title":{"ru":"C-Цена находится между верхней и нижней линией","en":"C-The price is between the upper and lower line"}
+					},
+					{
+						"id":"false",
+						"short_title":"D",
+						"title":{"ru":"D-Не открывать сделку","en":"D-Do not open a trade"}
+					}
+				]
+			},
+			{
+				"id":"down",
+				"type":"select",
+				"title":{"ru":"&darr; Сигнал на продажу","en":"&darr; Sell signal"},
+				"value":[
+					{
+						"id":"check_price<down_line",
+						"short_title":"A",
+						"title":{"ru":"A-Цена ниже нижней линии индикатора","en":"A-The price is below the lower line of the indicator"}
+					},
+					{
+						"id":"check_price>up_line",
+						"short_title":"B",
+						"title":{"ru":"B-Цена выше верхней линии индикатора","en":"B-The price is below the lower line of the indicator"}
+					},
+					{
+						"id":"check_price>down_line && check_price<up_line",
+						"short_title":"C",
+						"title":{"ru":"C-Цена находится между верхней и нижней линией","en":"C-The price is between the upper and lower line"}
+					},
+					{
+						"id":"false",
+						"short_title":"D",
+						"title":{"ru":"D-Не открывать сделку","en":"D-Do not open a trade"}
+					}
+				]
+			}
+		]
+	}
+]
+
+}

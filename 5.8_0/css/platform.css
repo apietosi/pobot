@@ -1,0 +1,167 @@
+/* ▼ Шрифты */
+@font-face{
+	font-family:FontAwesome;
+	font-style:normal;
+	font-weight:400;
+	src:url('../font/fontawesome-webfont.eot');
+	src:url('../font/fontawesome-webfont.eot?#iefix&v=4.7.0') format("embedded-opentype"),url('../font/fontawesome-webfont.woff2') format("woff2"),url('../font/fontawesome-webfont.woff') format("woff"),url('../font/fontawesome-webfont.ttf') format("truetype"),url('../font/fontawesome-webfont.svg#fontawesomeregular') format("svg")}
+:before{
+	font-family:FontAwesome;
+}
+/*скролбар*/
+.body-signal-conteyner::-webkit-scrollbar-button { 
+background-repeat:no-repeat; 
+width:2px; 
+height:0px 
+} 
+ 
+.body-signal-conteyner::-webkit-scrollbar-thumb { 
+-webkit-border-radius: 5px; 
+border-radius: 5px; 
+background-color:#fff; 
+box-shadow:0px 1px 1px #fff inset; 
+background-image:url('https://yraaa.ru/_pu/24/59610063.png'); 
+background-position:center; 
+background-repeat:no-repeat; 
+} 
+
+.body-signal-conteyner::-webkit-resizer{ 
+background-image:url(''); 
+background-repeat:no-repeat; 
+width:2px; 
+height:0px 
+} 
+
+.body-signal-conteyner::-webkit-scrollbar{ 
+width: 3px;
+height: 3px;
+margin-right:10px;
+}
+/*блок сигналов*/
+.trsignal-win-conteyner{
+	position:relative; display:flex; flex-direction:column; max-width:100%; width:35%; min-width:560px; background-image:url(../img/panel_ryab.png); background:rgba(46,46,54,0.9); border: 1px solid #33373c;
+	color:#FFF; z-index:5000; position:absolute; left:10px; top:10px;
+}
+.trsignal-win-head-contyner{
+	display:flex; padding: 5px 7px;
+}
+.trsignal-win-head-contyner .trsignal-win-head-title:before{
+	content:'\F21E';
+}
+.trsignal-win-head-contyner .trsignal-win-head-title{
+	flex:1
+}
+.trsignal-win-head-contyner .trsignal-win-head-btnclose{
+}
+.trsignal-win-head-contyner .trsignal-win-head-btnclose:before{
+	content:'\F00D';
+	cursor: pointer;
+}
+.trsignal-win-body-contyner{
+	flex:1
+}
+
+.body-signal-conteyner{
+	display:flex; padding-bottom:15px; max-height:200px; overflow:auto;
+}
+.body-signal-conteyner thead th{
+	text-align:center; color: #8fa5bf; font-size: 12px; padding:5px 0;
+}
+.body-signal-conteyner td{
+	text-align:center; font-size: 13px; padding:5px 5px ; white-space: nowrap;
+	
+}
+.body-signal-conteyner .signal-up:before {
+    content: "\F062";
+	color:#47b944;
+}
+.body-signal-conteyner .signal-down:before {
+    content: "\F063";
+	color:#f73a26;
+}
+.body-signal-conteyner .signal-action-contener{
+	display:flex; justify-content:center; align-items:center;
+}
+.body-signal-conteyner .signal-action-contener .signal-action-btn-openchart:hover{
+	display:flex; margin:0 3px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2), 0 0 15px rgba(94,222,94,.5);
+}
+.body-signal-conteyner .signal-action-contener .signal-action-btn-openchart{
+	margin:0 3px; padding:5px; background-color: rgba(94,222,94,.12); font-size: 12px; border: 1px solid #5ede5e; border-radius: 4px; cursor:pointer;
+}
+.body-signal-conteyner .signal-action-contener .signal-action-btn-delete:before{
+	content:'\F00D'; color:red; margin-left:3px; cursor:pointer;
+}
+ /*.trsignal-win-footer-contyner{
+	display:flex; padding: 7px; justify-content:center;
+}
+.trsignal-win-footer-contyner .trsignal-win-footer-btn{
+	margin:0 5px; padding:5px; background-color: rgba(94,222,94,.12); box-shadow: 0 1px 2px rgba(0,0,0,.2), 0 0 15px rgba(94,222,94,.5);
+    font-size: 14px; border: 1px solid #5ede5e; border-radius: 4px; cursor:pointer;
+}*/
+header div.robot-platform-info{
+	 
+	
+}
+/*Блок уведомлений */
+#notification-conteyner{
+	position:relative; display:flex; flex-direction:column; max-width:100%; width:35%; min-width:560px; background-image:url(../img/panel_ryab.png); background:rgba(46,46,54,0.9); border: 1px solid #33373c;
+	color:#FFF; z-index:5000; position:absolute; left:250px; top:170px; border-radius:3px;
+}
+#notification-conteyner .notification-conteyner-title{
+	padding: 5px 10px;
+}
+#notification-conteyner .notification-conteyner-title:before{
+	content:'\F27B'; padding-right:5px;
+}
+
+#notification-conteyner .notification-conteyner-body{
+	flex:1; padding: 5px 10px;
+}
+#notification-conteyner .notification-conteyner-button{
+	display:flex; justify-content:center; align-items:center;
+}
+#notification-conteyner .notification-conteyner-button .btn-close{
+	background-color: rgba(48,153,245,.2); border: 1px solid #3099f5;  
+    color: #fff; padding:3px ; margin:3px 6px; border-radius:3px;
+}
+#notification-conteyner .notification-conteyner-button .btn-close:hover{ 
+	cursor:pointer; box-shadow: 0 2px 2px rgba(0,0,0,.3), 0 0 15px rgba(48,153,245,.6);
+}
+#notification-conteyner a.vk{
+	   
+}
+#notification-conteyner a.vk:before{
+	content:'\F189'; padding-right:5px; font-size:14px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

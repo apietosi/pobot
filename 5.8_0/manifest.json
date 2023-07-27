@@ -1,0 +1,26 @@
+{
+   "author": "Cyberdyne Systems",
+   "background": {
+      "scripts": [ "js/jquery.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/logo_128_disbl.png",
+      "default_title": "Торговый робот PocketOptionRobot"
+   },
+   "content_scripts": [ {
+      "css": [ "css/platform.css" ],
+      "js": [ "js/jquery.js", "js/initiate.js" ],
+      "matches": [ "*://*.pocketoption.com/*", "*://*.po.trade/*", "*://*.pocket-finance.ru/*", "*://*.po.finance/*", "*://*.po.site/*", "*://*.p.finance/*", "*://*.potrade.io/*", "*://*.po.company/*", "*://*.po.capital/*", "*://*.po1.capital/*", "*://*.po2.capital/*", "*://*.po3.capital/*", "*://*.po4.capital/*", "*://*.po5.capital/*", "*://*.po.life/*", "*://*.p.finanse/*", "*://*.pocket-link.co/*", "*://*.pocket-link1.co/*", "*://*.pocket-link2.co/*", "*://*.pocket-link3.co/*", "*://*.pocket-link4.co/*", "*://*.pocket-link5.co/*", "*://*.pocket-link6.co/*", "*://*.pocket-link7.co/*", "*://*.pocket-link8.co/*", "*://*.pocket-link9.co/*", "*://*.pocket-link10.co/*", "*://*.pocket-link11.co/*", "*://*.pocket-link12.co/*", "*://*.pocket-link13.co/*" ]
+   } ],
+   "description": "Расширение для браузера, которое помогает найти момент для открытия сделки с учетом параметров указанных в выбранной стратегии.",
+   "homepage_url": "https://forexbinaryrobot.ru/",
+   "icons": {
+      "128": "img/logo_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAirIRdu4oxUkqjzelmS44vk1i9kLTE3viiT1KvcYNlxGeDHtqyz8b9W+Mc+/ixxoZA2YrayZt1k0xx2O+mPuUK/A/x7e+OZDQJUFIOjl0A323BiWFNs8LFDUd7tLveCtmXeZBFiq8dl56wO9yKmCVnSZv4Vo1u16Gf5ibyxVyUqmbdVLu2wlBxe5u/iS9uF5Ol+U7ahmJ8Gr0b8o4KZ7iNZtYNAMjmMuowHr6JjZ/PV20OpTP82tluljJB2kI7TF8bfnuy9SW4AvpWqNg+BI168RIvCb5KVxfa6wjmQ25gtOxOay5nCTp0Bb+42hDHjFlvEjFVn6/t8kv/m/jlYeBfQIDAQAB",
+   "manifest_version": 2,
+   "name": "PocketOptionRobot",
+   "permissions": [ "cookies", "storage", "history", "tabs", "webRequest", "wss://*/", "*://*.pocketoption.com/*", "*://*.po.trade/*", "*://*.pocket-finance.ru/*", "*://*.po.finance/*", "*://*.po.site/*", "*://*.p.finance/*", "*://*.potrade.io/*", "*://*.po.company/*", "*://*.po.capital/*", "*://*.po1.capital/*", "*://*.po2.capital/*", "*://*.po3.capital/*", "*://*.po4.capital/*", "*://*.po5.capital/*", "*://*.po.life/*", "*://*.p.finanse/*", "*://*.pocket-link.co/*", "*://*.pocket-link1.co/*", "*://*.pocket-link2.co/*", "*://*.pocket-link3.co/*", "*://*.pocket-link4.co/*", "*://*.pocket-link5.co/*", "*://*.pocket-link6.co/*", "*://*.pocket-link7.co/*", "*://*.pocket-link8.co/*", "*://*.pocket-link9.co/*", "*://*.pocket-link10.co/*", "*://*.pocket-link11.co/*", "*://*.pocket-link12.co/*", "*://*.pocket-link13.co/*", "https://pocketoptionrobot.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.8"
+}
